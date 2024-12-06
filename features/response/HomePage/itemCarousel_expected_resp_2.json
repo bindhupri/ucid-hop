@@ -1,0 +1,280 @@
+{
+  "errorDetails": [
+  ],
+  "features": null,
+  "reqId": "production-testing-p13n-grvi1",
+  "pageOffset": 0,
+  "inflateContent": true,
+  "modules": [
+    {
+      "zone": "contentZone6",
+      "moduleType": "ItemCarousel",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea6",
+      "configs": {
+        "items": [
+        ],
+        "manualShelfId": "4710101",
+        "defaultStrategy": null,
+        "expandedOnPageLoad": "True",
+        "title": "TVs",
+        "subTitle": null,
+        "showGridView": "False",
+        "viewAllLink": {
+          "title": "Title text",
+          "linkText": "Link text",
+          "clickThrough": {
+            "type": "url",
+            "value": "www.samsclub.com",
+            "rawValue": "www.samsclub.com"
+          }
+        },
+        "minItems": "4",
+        "span": "full",
+        "itemsSelection": "p13n",
+        "p13nStrategy": "home_page.product_0",
+        "enabledSponsored": "True",
+        "isAtfSectionItemCarousel": "False",
+        "isExternalTrafficOverlayCarousel": "False"
+      },
+      "moduleResponse": [
+        {
+          "products": [
+            {
+              "id": "1ZYF0B135EHC",
+              "usItemId": "5018481342",
+              "offerId": "00278419F5DB3088A2C76602DDADE9E8",
+              "orderLimit": 10.0,
+              "priceInfo": {
+                "priceDisplayCodes": {
+                  "rollback": false,
+                  "hidePriceForSOI": false,
+                  "reducedPrice": false,
+                  "eligibleForAssociateDiscount": false,
+                  "clearance": false,
+                  "strikethrough": false,
+                  "submapType": "Item"
+                },
+                "currentPrice": {
+                  "price": 8.81,
+                  "priceString": "$8.81"
+                },
+                "wasPrice": {
+                  "price": 10.0,
+                  "priceString": "$10.00"
+                },
+                "savings": {
+                  "amount": 1.18,
+                  "currencyUnit": "USD"
+                },
+                "comparisonPrice": {
+                  "price": 10.0,
+                  "priceType": "BASE",
+                  "currencyUnit": "USD"
+                }
+              },
+              "category": {
+                "categoryPathId": "0:5438:133162:1199498:2603758",
+                "categoryPath": "Home Page/Clothing/Womens Clothing/Womens Sweaters/Womens Sweaters"
+              },
+              "fulfillmentBadge": "SAME_DAY",
+              "shippingOption": {
+                "slaTier": "SAME_DAY",
+                "availabilityStatus": "AVAILABLE"
+              },
+              "fulfillmentType": "STORE",
+              "availabilityStatus": "IN_STOCK",
+              "availableQuantity": 9999.0,
+              "imageInfo": {
+                "thumbnailUrl": "https://i5.walmartimages.com/seo/TWIFER-Pullover-Sweater-For-Women-Christmas-Knitted-Sweater-Cute-Santa-Head-Pattern-Crewneck-Pullover-SweaterSize-M_96420846-3dd7-459c-9887-39e1b1b91509.4e3c009b27149b19a09af159ab28040b.jpeg",
+                "assetId": "9EB41156EA094917AE110672FED90E2D"
+              },
+              "classType": "REGULAR",
+              "canonicalUrl": "/ip/TWIFER-Pullover-Sweater-For-Women-Christmas-Knitted-Sweater-Cute-Santa-Head-Pattern-Crewneck-Pullover-SweaterSize-M/5018481342?athcpid=5018481342&athpgid=GlassHomePageDesktopV1&athcgid=null&athznid=0&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+              "name": "Paper Mate - InkJoy 300RT Ballpoint Pen, Assorted Ink, Medium - 8 Pens-TestVK10ItemsTestProject.",
+              "departmentName": "Clothing",
+              "brand": "TWIFER",
+              "variantCount": 2,
+              "variantCriteria": [
+                {
+                  "name": "Color",
+                  "variantList": [
+                    {
+                      "name": "Fruit Green",
+                      "swatchImageUrl": "https://i5.walmartimages.com/asr/bccfc1b0-ff42-43dc-a2ad-61228931f71d.1d99d6617e6b839d636273848e632232.jpeg",
+                      "selectedProduct": {
+                        "usItemId": "5019335906",
+                        "imageUrl": "https://i5.walmartimages.com/seo/TWIFER-Pullover-Sweater-For-Women-Christmas-Knitted-Sweater-Cute-Santa-Head-Pattern-Crewneck-Pullover-SweaterSize-XL_96420846-3dd7-459c-9887-39e1b1b91509.4e3c009b27149b19a09af159ab28040b.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Rose Red",
+                      "swatchImageUrl": "https://i5.walmartimages.com/asr/18bf553a-d000-45c6-8a6b-bde0d89624ba.37a9bd424c49262120c056ab579fdb97.jpeg",
+                      "selectedProduct": {
+                        "usItemId": "5019646649",
+                        "imageUrl": "https://i5.walmartimages.com/seo/TWIFER-Pullover-Sweater-For-Women-Christmas-Knitted-Sweater-Cute-Santa-Head-Pattern-Crewneck-Pullover-SweaterSize-M_5804a763-fd21-4906-87a6-bd1137ff0525.5903f9d3add086a8a40013f5c6facc3e.jpeg"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "p13nData": {
+                "modelItemId": "5018481342"
+              },
+              "showAtc": true,
+              "showSubscribe": false,
+              "showOptions": false,
+              "productClassType": "REGULAR",
+              "fulfillmentSummary": [
+                {
+                  "fulfillment": "DELIVERY",
+                  "storeId": "6279",
+                  "deliveryDate": 1724464800000,
+                  "availability": {
+                    "quantity": 1.0
+                  },
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                },
+                {
+                  "fulfillment": "PICKUP",
+                  "storeId": "6279",
+                  "deliveryDate": 1724464800000,
+                  "availability": {
+                    "quantity": 1.0
+                  },
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                }
+              ],
+              "productType": "Sweaters"
+            }
+          ]
+        }
+      ],
+      "subType": null,
+      "athenaOverrides": "true"
+    },
+    {
+      "zone": "contentZone7",
+      "moduleType": "ItemCarousel",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea7",
+      "configs": {
+        "items": [
+        ],
+        "manualShelfId": "4710101",
+        "defaultStrategy": null,
+        "expandedOnPageLoad": "True",
+        "title": "TVs",
+        "subTitle": null,
+        "showGridView": "False",
+        "viewAllLink": {
+          "title": "Title text",
+          "linkText": "Link text",
+          "clickThrough": {
+            "type": "url",
+            "value": "www.samsclub.com",
+            "rawValue": "www.samsclub.com"
+          }
+        },
+        "minItems": "4",
+        "span": "full",
+        "itemsSelection": "p13n",
+        "p13nStrategy": "home_page.product_1",
+        "enabledSponsored": "True",
+        "isAtfSectionItemCarousel": "False",
+        "isExternalTrafficOverlayCarousel": "False"
+      },
+      "moduleResponse": [
+        {
+          "products": [
+            {
+              "id": "4STV117NBYV6",
+              "usItemId": "540214720",
+              "offerId": "D4344DA13E6C4A1ABE2AFB0323644C2D",
+              "sellerId": "7FBFACDD8D704BCD92133D7447541D67",
+              "orderLimit": 99.0,
+              "priceInfo": {
+                "priceDisplayCodes": {
+                  "rollback": false,
+                  "hidePriceForSOI": false,
+                  "reducedPrice": false,
+                  "eligibleForAssociateDiscount": false,
+                  "clearance": false,
+                  "strikethrough": false,
+                  "submapType": "Item"
+                },
+                "currentPrice": {
+                  "price": 69.75,
+                  "priceString": "$69.75"
+                },
+                "wasPrice": {
+                  "price": 79.18,
+                  "priceString": "$79.18"
+                },
+                "shipPrice": {
+                  "price": 9.44,
+                  "priceString": "+$9.44 shipping"
+                },
+                "savings": {
+                  "amount": 9.43,
+                  "currencyUnit": "USD"
+                },
+                "comparisonPrice": {
+                  "price": 79.18,
+                  "priceType": "BASE",
+                  "currencyUnit": "USD"
+                }
+              },
+              "category": {
+                "categoryPathId": "0:5438:7712430:2700757:2676407",
+                "categoryPath": "Home Page/Clothing/Kids Clothing/Toddler Clothing/Toddler Clothing"
+              },
+              "fulfillmentBadge": "STANDARD",
+              "shippingOption": {
+                "slaTier": "THREE_TO_FIVE_DAY",
+                "availabilityStatus": "AVAILABLE"
+              },
+              "fulfillmentType": "FC",
+              "availabilityStatus": "IN_STOCK",
+              "availableQuantity": 1.0,
+              "imageInfo": {
+                "thumbnailUrl": "https://i5.walmartimages.com/asr/1127e591-0d0f-41f2-bee8-0461e6f2eb4d_1.7c137181f381fa6609355c3071d1dfe6.jpeg",
+                "assetId": "F8B4C2D757094E0A967FD8872190B3AD"
+              },
+              "classType": "REGULAR",
+              "canonicalUrl": "/ip/Children-s-Clothing-New-Baby-Out-Clothes-0-1-2-3-Years-Old-Children-Clothes-Female-Baby-Princess-Suit-Top-Pants/540214720?athcpid=540214720&athpgid=GlassHomePageDesktopV1&athcgid=null&athznid=1&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+              "name": "Gold Medal Old Fashioned Plastic Lemonade Cup (32oz. cup, 250 per case)",
+              "departmentName": "Clothing",
+              "brand": "Uobettsly",
+              "variantCount": 4,
+              "p13nData": {
+                "modelItemId": "540214720"
+              },
+              "showAtc": true,
+              "showSubscribe": false,
+              "showOptions": false,
+              "productClassType": "REGULAR",
+              "fulfillmentSummary": [
+                {
+                  "storeId": "6279",
+                  "deliveryDate": 0,
+                  "sla": {
+                    "measurementValue": 0
+                  },
+                  "calculatedSlaDays": 0
+                }
+              ],
+              "productType": "Baby Layette & Gift Sets"
+            }
+          ]
+        }
+      ],
+      "subType": null,
+      "athenaOverrides": "true"
+    }
+  ],
+  "styles": [
+  ]
+}

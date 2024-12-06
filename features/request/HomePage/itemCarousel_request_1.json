@@ -1,0 +1,57 @@
+{
+  "reqId": "production-testing-p13n-grvi1",
+  "inflateContent": true,
+  "userReqInfo": {
+    "preferredStoreId": "5435",
+    "storeIds": [
+      "6612"
+    ],
+    "refererContext": {
+      "query": "apple_battery_watch",
+      "facet": "",
+      "catId": ""
+    },
+    "vtc": "YFbhb_1wheIpAM5ZmRhy3k",
+    "cid": "2069724834"
+  },
+  "modules": [
+    {
+      "zone": "contentZone6",
+      "moduleType": "ItemCarousel",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea6",
+      "configs": {
+        "items": [],
+        "manualShelfId": "4710101",
+        "defaultStrategy": null,
+        "expandedOnPageLoad": "True",
+        "title": "TVs",
+        "subTitle": null,
+        "showGridView": "False",
+        "viewAllLink": {
+          "title": "Title text",
+          "linkText": "Link text",
+          "clickThrough": {
+            "type": "url",
+            "value": "www.samsclub.com",
+            "rawValue": "www.samsclub.com"
+          }
+        },
+        "minItems": "4",
+        "span": "full",
+        "itemsSelection": "p13n",
+        "p13nStrategy": "home_page.product_0",
+        "enabledSponsored": "True",
+        "isAtfSectionItemCarousel": "False",
+        "isExternalTrafficOverlayCarousel": "False"
+      }
+    }
+  ],
+  "userClientInfo": {
+    "deviceType": "desktop",
+    "ipAddress": "IP=0:0:0:0:0:0:0:1-0:0:0:0:0:0:0:1",
+    "callType": "SERVER",
+    "zipCode": "95122",
+    "stateOrProvinceCode": "CA",
+    "isZipLocated": true
+  }
+}

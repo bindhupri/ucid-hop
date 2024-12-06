@@ -1,0 +1,110 @@
+{
+  "modules": [
+    {
+      "zone": "contentZone6",
+      "moduleType": "NewCategoryList",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea6",
+      "configs": {
+        "__typename": "TempoWM_GLASSMobileNewCategoryListConfigsV1",
+        "categories": [
+          {
+            "__typename": "CLETempoWM_GLASSMobileNewCategoryListConfigsCategories",
+            "image": {
+              "__typename": "TempoCommonImage",
+              "src": "https://i5.walmartimages.com/dfw/4ff9c6c9-185b/k2-_44968a73-cf63-49b6-90e8-d4b5fed779f3.v1.jpg",
+              "assetId": "e941899a-1e8e-4a24-9532-79cfc554791c",
+              "assetName": "2514691-063-FOOD-Grocery-1D-DepartmentTileDesktop.jpg",
+              "clickThrough": {
+                "__typename": "TempoCommonClickThrough",
+                "value": "walmart://cp/976759?athAsset=eyJhdGhjcGlkIjoiMDMwMDgxYTUtMmZkZS00NmNjLWE4MzItMjYzZDNjMWUzMmYzIn0=&athena=true"
+              }
+            },
+            "name": "Grocery"
+          },
+          {
+            "__typename": "CLETempoWM_GLASSMobileNewCategoryListConfigsCategories",
+            "image": {
+              "__typename": "TempoCommonImage",
+              "src": "https://i5.walmartimages.com/dfw/4ff9c6c9-8370/k2-_15a0a4d2-1619-4914-94cd-774567d41404.v1.jpg",
+              "assetId": "7aa94936-168a-4abe-a68e-eec6c50878b8",
+              "assetName": "2514691-069-HOME-Home-4D-DepartmentTileDesktop.jpg",
+              "clickThrough": {
+                "__typename": "TempoCommonClickThrough",
+                "value": "walmart://cp/4044?athAsset=eyJhdGhjcGlkIjoiMDMwMDgxYTUtMmZkZS00NmNjLWE4MzItMjYzZDNjMWUzMmYzIn0=&athena=true"
+              }
+            },
+            "name": "Home"
+          }
+        ],
+        "seeAllCategoriesLink": {
+          "__typename": "TempoCommonStringLink",
+          "clickThrough": {
+            "__typename": "TempoCommonClickThrough",
+            "value": "walmart://browse?athAsset=eyJhdGhjcGlkIjoiMDMwMDgxYTUtMmZkZS00NmNjLWE4MzItMjYzZDNjMWUzMmYzIn0=&athena=true"
+          },
+          "linkText": "View all",
+          "title": "View all"
+        },
+        "title": "Get it all right here",
+        "displayMode": "grid4x",
+        "categoryNameFontColor": "#000000",
+        "categoryImagePlaceholderColor": "#FFFFFF",
+        "enablePersonalization": "True",
+        "p13nStrategy": "home_page.grid_0"
+      }
+    },
+    {
+      "zone": "contentZone7",
+      "moduleType": "NewCategoryList",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea7",
+      "configs": {
+        "__typename": "TempoWM_GLASSMobileNewCategoryListConfigsV1",
+        "categories": [
+          {
+            "__typename": "CLETempoWM_GLASSMobileNewCategoryListConfigsCategories",
+            "image": {
+              "__typename": "TempoCommonImage",
+              "src": "https://i5.walmartimages.com/dfw/4ff9c6c9-185b/k2-_44968a73-cf63-49b6-90e8-d4b5fed779f3.v1.jpg",
+              "assetId": "e941899a-1e8e-4a24-9532-79cfc554791c",
+              "assetName": "2514691-063-FOOD-Grocery-1D-DepartmentTileDesktop.jpg",
+              "clickThrough": {
+                "__typename": "TempoCommonClickThrough",
+                "value": "walmart://cp/976759?athAsset=eyJhdGhjcGlkIjoiMDMwMDgxYTUtMmZkZS00NmNjLWE4MzItMjYzZDNjMWUzMmYzIn0=&athena=true"
+              }
+            },
+            "name": "Grocery"
+          },
+          {
+            "__typename": "CLETempoWM_GLASSMobileNewCategoryListConfigsCategories",
+            "image": {
+              "__typename": "TempoCommonImage",
+              "src": "https://i5.walmartimages.com/dfw/4ff9c6c9-8370/k2-_15a0a4d2-1619-4914-94cd-774567d41404.v1.jpg",
+              "assetId": "7aa94936-168a-4abe-a68e-eec6c50878b8",
+              "assetName": "2514691-069-HOME-Home-4D-DepartmentTileDesktop.jpg",
+              "clickThrough": {
+                "__typename": "TempoCommonClickThrough",
+                "value": "walmart://cp/4044?athAsset=eyJhdGhjcGlkIjoiMDMwMDgxYTUtMmZkZS00NmNjLWE4MzItMjYzZDNjMWUzMmYzIn0=&athena=true"
+              }
+            },
+            "name": "Home"
+          }
+        ],
+        "seeAllCategoriesLink": {
+          "__typename": "TempoCommonStringLink",
+          "clickThrough": {
+            "__typename": "TempoCommonClickThrough",
+            "value": "walmart://browse?athAsset=eyJhdGhjcGlkIjoiMDMwMDgxYTUtMmZkZS00NmNjLWE4MzItMjYzZDNjMWUzMmYzIn0=&athena=true"
+          },
+          "linkText": "View all",
+          "title": "View all"
+        },
+        "title": "Get it all right here",
+        "displayMode": "grid4x",
+        "categoryNameFontColor": "#000000",
+        "categoryImagePlaceholderColor": "#FFFFFF",
+        "enablePersonalization": "True",
+        "p13nStrategy": "home_page.grid_0"
+      }
+    }
+  ]
+}

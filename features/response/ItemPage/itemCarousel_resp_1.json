@@ -1,0 +1,167 @@
+{
+  "zone": "contentZone6",
+  "moduleType": "ItemCarousel",
+  "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea6",
+  "configs": {
+    "items": [],
+    "manualShelfId": null,
+    "defaultStrategy": null,
+    "expandedOnPageLoad": "True",
+    "title": "TVs",
+    "subTitle": null,
+    "showGridView": "False",
+    "viewAllLink": {
+      "title": "Title text",
+      "linkText": "Link text",
+      "clickThrough": {
+        "type": "url",
+        "value": "www.samsclub.com",
+        "rawValue": "www.samsclub.com"
+      }
+    },
+    "minItems": "4",
+    "span": "full",
+    "itemsSelection": "p13n",
+    "p13nStrategy": "item_page.rr0",
+    "isAtfSectionItemCarousel": "False",
+    "isExternalTrafficOverlayCarousel": "False"
+  },
+  "moduleResponse": [
+    {
+      "products": [
+        {
+          "id": "3VJ77RJA4E69",
+          "usItemId": "2410012203",
+          "offerId": "EEFF25F03FF74511872F51E45A01C05A",
+          "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+          "category": {
+            "categoryPathId": "100001:1900101:8069:1444:16290442",
+            "categoryPath": "All Departments/Seasonal & Occasions/Holiday Central/Grocery/Snacks"
+          },
+          "numberOfReviews": 12,
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://i5-qa.walmartimages.com/asr/a49d2403-02c8-4288-8703-cc24d6280ef0.fb4d70b7146a57a103dc7719fa58ecee.jpeg",
+            "assetId": "AC747C71BCF44591BBEF3F074CDC3E64"
+          },
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/Sunshine-Cheez-It-Crackers-3lb/2410012203?athcpid=2410012203&athpgid=AthenaItempage&athcgid=null&athznid=rr0&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+          "name": "Sunshine Cheez-It Crackers (3lb.)",
+          "p13nData": {
+            "modelItemId": "2410012203"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "showOptions": false,
+          "productClassType": "REGULAR",
+          "fulfillmentSummary": [
+            {
+              "fulfillment": "DELIVERY",
+              "storeId": "6612",
+              "fulfillmentMethods": [
+                "UNSCHEDULED"
+              ]
+            },
+            {
+              "fulfillment": "PICKUP",
+              "storeId": "6612",
+              "fulfillmentMethods": [
+                "UNSCHEDULED"
+              ]
+            },
+            {
+              "fulfillment": "DELIVERY",
+              "storeId": "6279",
+              "fulfillmentMethods": [
+                "UNSCHEDULED"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4DQ5YUNP286W",
+          "usItemId": "40613121679",
+          "offerId": "5F45DA2A64B3473180BA5B835C88E22C",
+          "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://i5-qa.walmartimages.com/asr/3ed12415-f808-42d3-bf9e-230f645c5e34.2cac741c783b1f45dc90e69b09a377a0.jpeg",
+            "assetId": "9579BACA7EBD43D2AC0629F9E1122683"
+          },
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/Marathon-Multifold-1-Ply-White-Paper-Towels-16-pks-250-towels-pk/40613121679?athcpid=40613121679&athpgid=AthenaItempage&athcgid=null&athznid=rr0&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+          "name": "Marathon Multifold 1-Ply White Paper Towels 16 pks., 250 towels/pk",
+          "brand": "Marathon",
+          "p13nData": {
+            "modelItemId": "40613121679"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "showOptions": false,
+          "productClassType": "REGULAR"
+        },
+        {
+          "id": "3RX3YODX9CT9",
+          "usItemId": "5210035738",
+          "offerId": "E4B324CFF7D54A71B49BA34AEF1E3C09",
+          "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+          "numberOfReviews": 15,
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://i5-qa.walmartimages.com/asr/7e65c32e-ee1e-4d55-a14b-f7d5cc9cdc09.090b9adba7b697835054210c8ead086d.jpeg",
+            "assetId": "D247A7E3C7E14EC982515FE26FAC7ABD"
+          },
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/McCormick-Poultry-Gravy-Mix-18-oz/5210035738?athcpid=5210035738&athpgid=AthenaItempage&athcgid=null&athznid=rr0&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+          "name": "McCormick Poultry Gravy Mix (18 oz.)....",
+          "brand": "McCormick",
+          "p13nData": {
+            "modelItemId": "5210035738"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "showOptions": false,
+          "productClassType": "REGULAR"
+        },
+        {
+          "id": "6P68TN56FN49",
+          "usItemId": "5018536301",
+          "offerId": "BC7D3CFCE5E3379DBCE9820D42E9D762",
+          "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://i5-qa.walmartimages.com/asr/fdf9974a-1b86-450d-9746-eb3aaf1ce201.f96a4a90b0f327a26054313b54d7e188.jpeg",
+            "assetId": "F07B4CB38B5E48EA916A35B4756ADC20"
+          },
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/Seedless-Cucumbers-3-ct/5018536301?athcpid=5018536301&athpgid=AthenaItempage&athcgid=null&athznid=rr0&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+          "name": "Seedless Cucumbers - 3 ct",
+          "p13nData": {
+            "modelItemId": "5018536301"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "showOptions": false,
+          "productClassType": "REGULAR",
+          "fulfillmentSummary": [
+            {
+              "fulfillment": "DELIVERY",
+              "storeId": "6612",
+              "fulfillmentMethods": [
+                "UNSCHEDULED"
+              ]
+            },
+            {
+              "fulfillment": "PICKUP",
+              "storeId": "6612",
+              "fulfillmentMethods": [
+                "UNSCHEDULED"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "athenaOverrides": "true"
+}

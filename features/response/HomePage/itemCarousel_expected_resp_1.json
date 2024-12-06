@@ -1,0 +1,93 @@
+{
+  "errorDetails": [],
+  "features": null,
+  "reqId": "production-testing-p13n-grvi1",
+  "pageOffset": 0,
+  "inflateContent": true,
+  "modules": [
+    {
+      "zone": "contentZone6",
+      "moduleType": "ItemCarousel",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea6",
+      "configs": {
+        "items": [],
+        "manualShelfId": "4710101",
+        "defaultStrategy": null,
+        "expandedOnPageLoad": "True",
+        "title": "TVs",
+        "subTitle": null,
+        "showGridView": "False",
+        "viewAllLink": {
+          "title": "Title text",
+          "linkText": "Link text",
+          "clickThrough": {
+            "type": "url",
+            "value": "www.samsclub.com",
+            "rawValue": "www.samsclub.com"
+          }
+        },
+        "minItems": "4",
+        "span": "full",
+        "itemsSelection": "p13n",
+        "p13nStrategy": "home_page.product_0",
+        "enabledSponsored": "True",
+        "isAtfSectionItemCarousel": "False",
+        "isExternalTrafficOverlayCarousel": "False"
+      },
+      "moduleResponse": [
+        {
+          "products": [
+            {
+              "id": "4G2W19WBJGJ8",
+              "usItemId": "5018644401",
+              "offerId": "8C251371B5923FC39F2059B849DEE4E5",
+              "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+              "availabilityStatus": "IN_STOCK",
+              "imageInfo": {
+                "thumbnailUrl": "https:\/\/i5-qa.walmartimages.com\/asr\/d1f03ceb-ec26-45f7-b758-f0bdd273a409.c0d0a213ca6ddb3040b51b5b21b28e78.jpeg",
+                "assetId": "4E2727C1DC2E4BB39CFF113F923E0B33"
+              },
+              "classType": "REGULAR",
+              "canonicalUrl": "\/product\/Member-s-Mark-Ultra-Dinner-Paper-Plates-10-204-ct\/5018644401?athcpid=5018644401&athpgid=GlassHomePageDesktopV1&athcgid=null&athznid=product0&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+              "name": "Member's Mark Ultra Dinner Paper Plates (10\", 204 ct.).",
+              "brand": "Member's Mark",
+              "p13nData": {
+                "modelItemId": "5018644401"
+              },
+              "showAtc": true,
+              "showSubscribe": false,
+              "showOptions": false,
+              "productClassType": "REGULAR",
+              "fulfillmentSummary": [
+                {
+                  "fulfillment": "DELIVERY",
+                  "storeId": "6612",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                },
+                {
+                  "fulfillment": "PICKUP",
+                  "storeId": "6612",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                },
+                {
+                  "fulfillment": "DELIVERY",
+                  "storeId": "6279",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subType": null,
+      "athenaOverrides": "true"
+    }
+  ],
+  "styles": []
+}

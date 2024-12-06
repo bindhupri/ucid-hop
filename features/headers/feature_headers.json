@@ -1,0 +1,7 @@
+{
+  "WM_SVC.NAME": "#(svcName)",
+  "WM_SVC.ENV": "#(svcEnv)",
+  "WM_CONSUMER.ID": "#(consumerId)",
+  "Content-Type": "application/json",
+  "tenant-id": "gj9b60"
+}

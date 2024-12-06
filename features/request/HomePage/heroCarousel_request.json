@@ -1,0 +1,76 @@
+{
+  "reqId": "production-testing-p13n-grvi1",
+  "inflateContent": true,
+  "userReqInfo": {
+    "preferredStoreId": "5435",
+    "storeIds": [
+      "6612"
+    ],
+    "refererContext": {
+      "query": "apple_battery_watch",
+      "facet": "",
+      "catId": ""
+    },
+    "vtc": "YFbhb_1wheIpAM5ZmRhy3k",
+    "cid": "2069724834"
+  },
+  "modules": [
+    {
+      "zone": "contentZone6",
+      "moduleType": "HeroCarousel",
+      "moduleId": "182f4524-869c-4337-83bc-2b51a0b1aea6",
+      "configs": {
+        "GridHeroPOVBanner": {
+          "image": {
+            "assetId": "sams-triplepack-medium.jpg",
+            "assetName": "sams-triplepack-medium.jpg",
+            "uploadedBy": "2024-06-21 2:26 PM by Tilak Hegde",
+            "width": "1344",
+            "height": "852",
+            "src": "https://i5.walmartimages.com/dfwrs/76316474-a356/k2-_564ba4fd-7431-4dcd-a446-2be206de5cd2.v1.jpg",
+            "contentType": "image/jpeg",
+            "size": "338643",
+            "alt": "alt",
+            "title": "sams-triplepack-medium",
+            "decorative": false,
+            "uid": "TQ9Ca2-O"
+          },
+          "backgroundColor": "#FFFFFF",
+          "textSpan": "horizontal",
+          "textAlignment": "bottomLeft",
+          "eyebrow": null,
+          "heading": null,
+          "enableCta": "False",
+          "isCtaHidden": null,
+          "primaryCtaGroup": null,
+          "secondaryCtaGroup": null,
+          "uid": "xqFG4kNF"
+        },
+        "filterType": "none",
+        "moduleList": [],
+        "primaryModule": "hero",
+        "heroModuleType": "GridHeroPOVBanner",
+        "titleColor": null,
+        "backgroundColor": null,
+        "viewAllLinkColor": null,
+        "minItems": "0",
+        "span": "full",
+        "itemsSelection": "p13n",
+        "p13nStrategy": "home_page.members_mark_0",
+        "items": [],
+        "manualShelfId": "5191637",
+        "uid": "0aICn9bK",
+        "VideoPlayer": null,
+        "athenaEnabled": "True"
+      }
+    }
+  ],
+  "userClientInfo": {
+    "deviceType": "desktop",
+    "ipAddress": "IP=0:0:0:0:0:0:0:1-0:0:0:0:0:0:0:1",
+    "callType": "SERVER",
+    "zipCode": "95122",
+    "stateOrProvinceCode": "CA",
+    "isZipLocated": true
+  }
+}

@@ -1,0 +1,47 @@
+# Karate API Testing
+
+- Before you Run the test container
+  - Create a test folder with copied CCM configs because some values will be overwritten in your ccm folder 
+  - In your VM options, in fields such as Dtunr.configs.dir and Dccm.configs.dir point to that test folder that you created 
+
+- To Run 
+    - Using IDE
+        - Install Karate plugin
+        - Right click TestRunnerKarate.java class to run as Junit Test with below VM Options
+          - -Druntime.context.system.property.override.enabled=true
+            -Druntime.context.appName=p13n-unified-service
+            -Druntime.context.environmentType=stg
+            -Druntime.context.environment=sams-p13n
+            -Druntime.context.cloud=wcnp-az-scus
+            -Druntime.context.cloudDC=wcnp-az-scus
+            -Druntime.context.node=local
+            -Dscm.server.access.enabled=true
+            -Druntime.context.appVersion=1.0.0
+            -Dcom.walmart.platform.logging.profile=CONSOLE
+            -Dcom.walmart.platform.metrics.impl.type=DEFAULT
+            -Dcom.walmart.platform.metrics.kafka.brokerList=null
+            -Dcom.walmart.platform.logging.network.enabled=false
+            -Dcom.walmart.platform.txnmarking.kafka.brokerList=null
+            -Dcom.walmart.platform.logging.kafka.brokerLis=null
+            -Dcom.walmart.platform.logging.file.format=V4Json
+            -Dexternal.configs.source.dir=$HOME/work/ucid-hop/ucid-seg/src/test/resources/sams-p13n
+            -Dtunr.configs.dir=$HOME/work/p13n-unified-service-NON-PROD-sams-p13n
+            -Dccm.configs.dir=$HOME/work/p13n-unified-service-NON-PROD-sams-p13n
+            -Dtunr.enabled=true
+            -Dscm.print.detailed.summary=true
+            -Dscm.client.config.providers.enabled=true
+            -Ducidhop.ssl.keystore.location=$HOME/work/keystore.jks
+            -Ducidhop.ssl.key.password=kafka2023KAFKA@
+            -Ducidhop.ssl.keystore.password=kafka2023KAFKA@
+            -Ducidhop.ssl.truststore.location=$HOME/work/truststore.jks
+            -Ducidhop.ssl.truststore.password=kafka2023KAFKA@
+            -Dnet.spy.log.LoggerImpl=SLF4JLogger
+            -Dnet.spy.log.level=ERROR
+            -Dorg.slf4j.simpleLogger.defaultLogLevel=ERROR
+            -Dlogging.level.root=ERROR
+    - From Terminal 
+        -  mvn test -Dtest=TestRunnerKarate -DfailIfNoTests=false -Druntime.context.system.property.override.enabled=true -Druntime.context.appName=p13n-unified-service -Druntime.context.environmentType=stg -Druntime.context.environment=sams-p13n -Druntime.context.cloud=wcnp-az-scus -Druntime.context.cloudDC=wcnp-az-scus -Druntime.context.node=local -Dscm.server.access.enabled=true -Druntime.context.appVersion=1.0.0 -Dcom.walmart.platform.logging.profile=CONSOLE -Dcom.walmart.platform.metrics.impl.type=DEFAULT -Dcom.walmart.platform.metrics.kafka.brokerList=null -Dcom.walmart.platform.logging.network.enabled=false -Dcom.walmart.platform.txnmarking.kafka.brokerList=null -Dcom.walmart.platform.logging.kafka.brokerLis=null -Dcom.walmart.platform.logging.file.format=V4Json -Dexternal.configs.source.dir=$HOME/work/ucid-hop/ucid-seg/src/test/resources/sams-p13n -Dtunr.configs.dir=$HOME/work/p13n-unified-service-NON-PROD-sams-p13n -Dccm.configs.dir=$HOME/work/p13n-unified-service-NON-PROD-sams-p13n -Dtunr.enabled=true -Dscm.print.detailed.summary=true -Dscm.client.config.providers.enabled=true -Ducidhop.ssl.keystore.location=$HOME/work/keystore.jks -Ducidhop.ssl.key.password=kafka2023KAFKA@ -Ducidhop.ssl.keystore.password=kafka2023KAFKA@ -Ducidhop.ssl.truststore.location=$HOME/work/truststore.jks -Ducidhop.ssl.truststore.password=kafka2023KAFKA@ -Dnet.spy.log.LoggerImpl=SLF4JLogger -Dnet.spy.log.level=ERROR -Dorg.slf4j.simpleLogger.defaultLogLevel=ERROR -Dlogging.level.root=ERROR
+
+- Troubleshooting
+  - If you are getting any errors regarding docker image, try to run the app off of vpn once, then run the app with vpn 
+  - If you are getting any other errors, it means something is wrong with external configs. Ask someone from your team to send their ccm folder to you

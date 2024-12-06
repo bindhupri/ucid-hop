@@ -1,0 +1,107 @@
+{
+  "features": null,
+  "errorDetails": [],
+  "reqId": "production-testing-p13n-grvi1",
+  "pageOffset": 0,
+  "pageId": "5018481217",
+  "inflateContent": true,
+  "modules": [
+    {
+      "zone": "contentZone1",
+      "moduleType": "SoftBundles",
+      "moduleId": "48a4f243-a98f-439e-9fd8-2e91cae408a1",
+      "configs": {
+        "athModule": "eyJhdGh6bmlkIjoiYm91Z2h0VG9nZXRoZXIiLCJhdGhpZWlkIjoidjAiLCJhdGhndWlkIjoicHJvZHVjdGlvbi10ZXN0aW5nLXAxM24tZ3J2aTEiLCJhdGxtdGlkIjoiU29mdEJ1bmRsZXMiLCJhdGhhbmNpZCI6IjUwMTg0ODEyMTciLCJhdGhwZ2lkIjoiQXRoZW5hSXRlbXBhZ2UiLCJhdGhyZWNvcyI6IjUwMTg0ODEyMTd+MjQxMDAxMjIwMyJ9"
+      },
+      "moduleResponse": [
+        {
+          "products": [
+            {
+              "id": "5JYMZ5MNJ0XV",
+              "usItemId": "5018481217",
+              "offerId": "A48F795915933D34A2CAAF2F99FAC4C9",
+              "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+              "availabilityStatus": "IN_STOCK",
+              "imageInfo": {
+                "thumbnailUrl": "https:\/\/i5-qa.walmartimages.com\/asr\/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg",
+                "assetId": "5ECE2146E98D49EDB58449C489500C10"
+              },
+              "classType": "REGULAR",
+              "canonicalUrl": "\/product\/Michelin-LTX-A-T2-P285-50R20E-111V\/5018481217",
+              "name": "Michelin LTX A\/T2 - P285\/50R20E 111V",
+              "brand": "Michelin",
+              "p13nData": {
+                "modelItemId": "5018481217"
+              },
+              "showAtc": true,
+              "showSubscribe": false,
+              "showOptions": false,
+              "productClassType": "REGULAR",
+              "fulfillmentSummary": [
+                {
+                  "fulfillment": "PICKUP",
+                  "storeId": "6612",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3VJ77RJA4E69",
+              "usItemId": "2410012203",
+              "offerId": "EEFF25F03FF74511872F51E45A01C05A",
+              "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+              "category": {
+                "categoryPathId": "100001:1900101:8069:1444:16290442",
+                "categoryPath": "All Departments\/Seasonal & Occasions\/Holiday Central\/Grocery\/Snacks"
+              },
+              "numberOfReviews": 12,
+              "availabilityStatus": "IN_STOCK",
+              "imageInfo": {
+                "thumbnailUrl": "https:\/\/i5-qa.walmartimages.com\/asr\/a49d2403-02c8-4288-8703-cc24d6280ef0.fb4d70b7146a57a103dc7719fa58ecee.jpeg",
+                "assetId": "AC747C71BCF44591BBEF3F074CDC3E64"
+              },
+              "classType": "REGULAR",
+              "canonicalUrl": "\/product\/Sunshine-Cheez-It-Crackers-3lb\/2410012203?athcpid=2410012203&athpgid=AthenaItempage&athcgid=null&athznid=boughtTogether&athieid=v0&athstid=CS020&athguid=production-testing-p13n-grvi1&athancid=null&athena=true",
+              "name": "Sunshine Cheez-It Crackers (3lb.)",
+              "p13nData": {
+                "modelItemId": "2410012203"
+              },
+              "showAtc": true,
+              "showSubscribe": false,
+              "showOptions": false,
+              "productClassType": "REGULAR",
+              "fulfillmentSummary": [
+                {
+                  "fulfillment": "DELIVERY",
+                  "storeId": "6612",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                },
+                {
+                  "fulfillment": "PICKUP",
+                  "storeId": "6612",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                },
+                {
+                  "fulfillment": "DELIVERY",
+                  "storeId": "6279",
+                  "fulfillmentMethods": [
+                    "UNSCHEDULED"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subType": null,
+      "athenaOverrides": "true"
+    }
+  ],
+  "styles": []
+}
