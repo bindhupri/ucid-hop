@@ -1,0 +1,76 @@
+{
+  "reqId": "93e18027-4d6-16cb067fa23298",
+  "userReqInfo": {
+    "requestType": [
+      "NUDGE",
+      "CAROUSELS"
+    ],
+    "cartContext": {
+      "cartIntent": "PICKUP",
+      "items": [
+        {
+          "id": "5018460718",
+          "fulfillmentType": "SHIPPING",
+          "availableQty": 17,
+          "badges": [
+            "ROLLBACK"
+          ],
+          "qty": 1,
+          "timestamp": 1623693390000,
+          "fulfillmentGroup": "FCGroup",
+          "shipNodeId": "1702420564"
+        },
+        {
+          "id": "5018460713",
+          "availableQty": 5,
+          "fulfillmentType": "PICKUP",
+          "badges": [
+            "REDUCED_PRICE"
+          ],
+          "qty": 1,
+          "timestamp": 1623693390000,
+          "fulfillmentGroup": "SCGroup"
+        },
+        {
+          "id": "120879",
+          "fulfillmentType": "PICKUP",
+          "badges": [
+            "REDUCED_PRICE"
+          ],
+          "qty": 1,
+          "timestamp": 1623693390000,
+          "fulfillmentGroup": "SCGroup"
+        }
+      ],
+      "slotExpirationTime": 1628529970593,
+      "timestamp": 1623693390000
+    },
+    "storeIds": [
+      "5435"
+    ],
+    "preferredStoreId": "145362",
+    "cid": "rerr3Q7Vz1AJ7Afdfsfsfsfsf",
+    "vid": "Q7Vz1ADjAN57Q6wFzoWJ7A",
+    "bstc": "yyyy"
+  },
+  "userClientInfo": {
+    "ipAddress": "IP=0:0:0:0:0:0:0:1-0:0:0:0:0:0:0:1",
+    "deviceType": "desktop",
+    "callType": "SERVER",
+    "zipCode": "85349",
+    "stateOrProvinceCode": "CA",
+    "isZipLocated": true,
+    "fulfillmentIntent": "PICKUP",
+    "intentStrength": "EXPLICIT"
+  },
+  "modules": [
+    {
+      "zone": "contentZone2",
+      "moduleType": "ItemCarousel",
+      "moduleId": "7adfdd66-cc03-4b38-a988-efd631953099",
+      "configs": {
+        "p13nStrategy": "cart_page.rr0"
+      }
+    }
+  ]
+}
