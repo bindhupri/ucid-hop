@@ -1,7 +1,7 @@
 @parallel=false
 @sams-p13n
 @sams-p13-ItemPage
-Feature: Testing Sams ItemPage content POST API Service
+Feature: Testing Sams CartPage content POST API Service
 
   Background:
     * def headers = read('../../../resources/features/headers/feature_headers.json')
@@ -10,7 +10,7 @@ Feature: Testing Sams ItemPage content POST API Service
     * def requestBody = read('../../../resources/features/request/CartPage/ItemCarousel_request.json')
 
   @positive
-  Scenario: Sams ItemPage content should be returned for Rich Relevance modules
+  Scenario: Sams CartPage content should be returned for Rich Relevance modules
     Given url baseUrl + apiUrl
     And request requestBody
     When method POST
@@ -64,7 +64,7 @@ Feature: Testing Sams ItemPage content POST API Service
     And match response.modules == []
 
   @positive
-  Scenario: Sams ItemPage content should be returned for Rich Relevance modules even if vtc in userReqInfo is missing
+  Scenario: Sams Cartpage content should be returned for Rich Relevance modules even if vtc in userReqInfo is missing
     * requestBody.userReqInfo.vtc = null
     Given url baseUrl + apiUrl
     And request requestBody
