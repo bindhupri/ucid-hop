@@ -1,0 +1,99 @@
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/members/2"
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "statusCode": 200,
+      "body": {
+        "id": 2,
+        "firstName": "Bob",
+        "lastName": "Marley",
+        "emailAddress": "bob.marley@google.com"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/members/3"
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "statusCode": 200,
+      "body": {
+        "id": 3,
+        "firstName": "Tom",
+        "lastName": "Brady",
+        "emailAddress": "tom.brady@expat.net"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/items/1"
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "statusCode": 200,
+      "body": {
+        "id": 1,
+        "upcNbr": "17082877721",
+        "upcDesc": "JL POUNDER ORIGINAL"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/items/2"
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "statusCode": 200,
+      "body": {
+        "id": 2,
+        "upcNbr": "17082877722",
+        "upcDesc": "Original Coke"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/items/3"
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "statusCode": 200,
+      "body": {
+        "id": 3,
+        "upcNbr": "17082877723",
+        "upcDesc": "Pepsi"
+      }
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/ads",
+      "body": {
+        "type": "JSON",
+        "matchType": "STRICT",
+        "json": {
+          "dt": "desktop",
+          "itemIds": [
+            "100791"
+          ],
+          "ml": "p13n",
+          "pgCtx": "168256",
+          "pt": "item",
+          "rid": "Ka-OLKc2iG4muD6n7ZdBGXH_zAyvTvbojawW",
+          "sid": "100"
+        }
+      }
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "statusCode": 200,
+      "body": {
+        "sponsoredProducts": {
+          "adUuid": "Ka-OLKc2iG4muD6n7ZdBGXH_zAyvTvbojawW",
+          "moduleInfo": "{\"adUuid\":\"Ka-OLKc2iG4muD6n7ZdBGXH_zAyvTvbojawW\"}",
+          "adItems": [
+            {
+              "itemId": "100791",
+              "cpc": 0.77,
+              "spQs": "CNe_cvibVFg8aB_jgF-XdJ6fQI2YC9bNkLpDDn-sodFnrIxmxpkLJijWJxmgpHohAL-zgmWF0HwCBnj_oCCXCUICUupilQ3xSM24nUVf8yI",
+              "clickBeacon": "https://stage.samsclub.com/midas/sams-crs/track?pltfm=desktop&tax=__tax__&rdf=0&plmt=__plmt__&eventST=__eventST__&spQs=CNe_cvibVFg8aB_jgF-XdJ6fQI2YC9bNkLpDDn-sodFnrIxmxpkLJijWJxmgpHohAL-zgmWF0HwCBnj_oCCXCUICUupilQ3xSM24nUVf8yI&pos=__pos__&pgId=168256&bt=__bt__&adUid=Ka-OLKc2iG4muD6n7ZdBGXH_zAyvTvbojawW&storeId=100&mloc=sp-item-p13n&pt=item",
+              "sellerId": "455A2F43226F41319399794332C71B7F"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/rr",
+      "queryStringParameters": [
+        {
+          "name": "placements",
+          "values": [
+            "item_page.boughtTogether"
+          ]
+        }
+      ]
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": {
+        "rcs": "eF5j4cotK8lMETA0NzbTNdQ1ZClN9kgyTjSyNDQ11jUwtTDRNTFKNNE1Tk0x1k01MjNJNTJMM0hKTQUAhr0OKA",
+        "placements": [
+          {
+            "htmlElementId": "item_page_0",
+            "placementType": "item_page",
+            "strategyMessage": "Try these instead",
+            "placement": "item_page.boughtTogether",
+            "recommendedProducts": [
+              {
+                "clickURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&ct=https%3A%2F%2Fwww.samsclub.com%2Fp%2Fsunshine-cheez-it-crackers-3-lb-box%2F154711&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=1&p=154711&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "clickTrackingURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=1&p=154711&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "id": "154711",
+                "productURL": "https://www.samsclub.com/p/sunshine-cheez-it-crackers-3-lb-box/154711"
+              },
+              {
+                "clickURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&ct=https%3A%2F%2Fwww.samsclub.com%2Fp%2Fmarathon-multifold-paper-towels-16-pack%2F156274&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=2&p=156274&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "clickTrackingURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=2&p=156274&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "id": "156274",
+                "productURL": "https://www.samsclub.com/p/marathon-multifold-paper-towels-16-pack/156274"
+              },
+              {
+                "clickURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&ct=https%3A%2F%2Fwww.samsclub.com%2Fp%2Fmccormick-poultry-gravy-mix-18-oz%2F160815&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=3&p=160815&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "clickTrackingURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=3&p=160815&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "id": "160815",
+                "productURL": "https://www.samsclub.com/p/mccormick-poultry-gravy-mix-18-oz/160815"
+              },
+              {
+                "clickURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&ct=https%3A%2F%2Fwww.samsclub.com%2Fp%2Fseedless-cucumbers-3-ct%2F162006&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=4&p=162006&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "clickTrackingURL": "https://integration.richrelevance.com/rrserver/apiclick?a=104342ec1e1f838c&cak=79b6501b403541dd&channelId=79b6501b403541dd&vg=b3a39153-0584-42a4-3ed3-e264e21f0bee&stid=1507337&mrrid=110091602&pti=9&pa=78035&pos=4&p=162006&s=YFbhb_1wheIpAM5ZmRhy3k&rid=6612&qsgs=40597&lang=en-US",
+                "id": "162006",
+                "productURL": "https://www.samsclub.com/p/seedless-cucumbers-3-ct/162006"
+              }
+            ]
+          }
+        ],
+        "viewGuid": "b3a39153-0584-42a4-3ed3-e264e21f0bee",
+        "status": "ok"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/iro-mapper",
+      "body": {
+        "type": "JSON",
+        "matchType": "STRICT",
+        "json": {
+          "ids": [
+            "154711",
+            "156274",
+            "160815",
+            "162006"
+          ],
+          "inputType": "samsproductid"
+        }
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": {
+        "message": "All Success",
+        "response": {
+          "154711": {
+            "source": "cache",
+            "walmartproductids": [
+              {
+                "samsitemgroupid": {
+                  "ids": "181771",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartitemid": {
+                  "ids": "2410012203",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartofferid": {
+                  "ids": "EEFF25F03FF74511872F51E45A01C05A",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartproductid": {
+                  "ids": "3VJ77RJA4E69",
+                  "message": "found",
+                  "status": "SUCCESS"
+                }
+              }
+            ]
+          },
+          "156274": {
+            "source": "cache",
+            "walmartproductids": [
+              {
+                "samsitemgroupid": {
+                  "ids": "211778",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartitemid": {
+                  "ids": "40613121679",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartofferid": {
+                  "ids": "5F45DA2A64B3473180BA5B835C88E22C",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartproductid": {
+                  "ids": "4DQ5YUNP286W",
+                  "message": "found",
+                  "status": "SUCCESS"
+                }
+              }
+            ]
+          },
+          "160815": {
+            "source": "cache",
+            "walmartproductids": [
+              {
+                "samsitemgroupid": {
+                  "ids": "138300",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartitemid": {
+                  "ids": "5210035738",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartofferid": {
+                  "ids": "E4B324CFF7D54A71B49BA34AEF1E3C09",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartproductid": {
+                  "ids": "3RX3YODX9CT9",
+                  "message": "found",
+                  "status": "SUCCESS"
+                }
+              }
+            ]
+          },
+          "162006": {
+            "source": "cache",
+            "walmartproductids": [
+              {
+                "samsitemgroupid": {
+                  "ids": "197469",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartitemid": {
+                  "ids": "5018536301",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartofferid": {
+                  "ids": "BC7D3CFCE5E3379DBCE9820D42E9D762",
+                  "message": "found",
+                  "status": "SUCCESS"
+                },
+                "walmartproductid": {
+                  "ids": "6P68TN56FN49",
+                  "message": "found",
+                  "status": "SUCCESS"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1121 @@
+[
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/iro-mapper",
+      "body": {
+        "type": "JSON",
+        "matchType": "STRICT",
+        "json": {
+          "ids": [
+            "5018481217"
+          ],
+          "inputType": "walmartitemid"
+        }
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": {
+        "message": "All Success",
+        "response": {
+          "5018481217": {
+            "samsitemgroupid": {
+              "ids": "sku3805061",
+              "message": "found",
+              "status": "SUCCESS"
+            },
+            "samsproductid": {
+              "ids": "prod3380778",
+              "message": "found",
+              "status": "SUCCESS"
+            },
+            "source": "cache",
+            "walmartitemid": {
+              "ids": "5018481217",
+              "message": "found",
+              "status": "SUCCESS"
+            },
+            "walmartofferid": {
+              "ids": "A48F795915933D34A2CAAF2F99FAC4C9",
+              "message": "found",
+              "status": "SUCCESS"
+            },
+            "walmartproductid": {
+              "ids": "5JYMZ5MNJ0XV",
+              "message": "found",
+              "status": "SUCCESS"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/iro-client",
+      "body": {
+        "type": "JSON",
+        "matchType": "STRICT",
+        "json": {
+          "productContexts": [
+            {
+              "productId": {
+                "USItemId": 5018481217,
+                "legacyItemId": "5018481217",
+                "storeIds": []
+              },
+              "isSubsRestrictionRequired": false
+            }
+          ],
+          "customerAddress": {
+            "addressType": "RESIDENTIAL",
+            "isApoFpo": false,
+            "isPoBox": false,
+            "postalCode": "95122",
+            "stateOrProvinceCode": "CA",
+            "latitude": 0.0,
+            "longitude": 0.0
+          },
+          "storeFrontIds": [
+            {
+              "storeId": "6612",
+              "onlineStoreFront": false
+            }
+          ],
+          "customerContext": {
+            "customerId": "2069724834",
+            "isPaidMember": false,
+            "isActiveMember": false
+          }
+        }
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": {
+        "status": "OK",
+        "errors": [],
+        "header": {
+          "headerAttributes": {
+            "source": "sams-catalog-service-stage",
+            "tenantId": "gj9b60"
+          }
+        },
+        "payload": [
+          {
+            "productId": {
+              "productId": "5JYMZ5MNJ0XV",
+              "USItemId": 5018481217,
+              "legacyItemId": "prod3380778",
+              "upc": "406229358791",
+              "gtin": "00406229358791",
+              "gSkuId": "sku3805061"
+            },
+            "entityErrors": [],
+            "product": {
+              "entityErrors": [],
+              "productId": {
+                "productId": "5JYMZ5MNJ0XV",
+                "USItemId": 5018481217,
+                "legacyItemId": "prod3380778",
+                "upc": "406229358791",
+                "gtin": "00406229358791",
+                "gSkuId": "sku3805061"
+              },
+              "productIdentifiers": {
+                "GTIN": "00406229358791",
+                "UPC": "406229358791"
+              },
+              "productVersion": 1732655225125,
+              "productName": "Michelin LTX A/T2 - P285/50R20E 111V",
+              "shortDescription": "<li>60,000 Mile Manufacturer's Limited Warranty*<li>Covered by the Michelin Promise Plan™<li>Black Sidewall<span class=\"michelinPromisePlan\"><a href=\"http://scene7.samsclub.com/is/content/samsclub/michelin_promise_planpdf\" target=\"_blank\" style=\"position:relative;top:5px;\"><img src=\"http://scene7.samsclub.com/is/image/samsclub/icon-MichelinPromisePlan?wid=50&op_sharpen=1\"></a></span>",
+              "longDescription": "<strong>60,000 Mile Limited Warranty</strong><br>The optimized contact patch shape, provided by MaxTouch Construction™, helps deliver extremely long tire life under the toughest conditions.<br><br><strong>35% Longer Life on Gravel</strong><br>Tough off-road endurance capability of the MICHELIN® LTX® A/T2 tire helps it last at least 35% longer on gravel than two leading class competitors.<br><br><strong>Very Comfortable Ride</strong><br>MICHELIN® Comfort Control Technology™ uses computer-optimized design and precision manufacturing to offer greatly reduced vibrations and road noise.",
+              "brand": "Michelin",
+              "productSegment": "Vehicles, Parts & Accessories",
+              "productSegmentName": "Vehicles, Parts & Accessories",
+              "productType": "Tires",
+              "productTypeName": "Tires",
+              "productTypeId": "3402",
+              "productAttributes": {
+                "all_shelves": {
+                  "value": "Manufacturer Part Number",
+                  "valueRank": 0,
+                  "name": "all_shelves",
+                  "type": "STRING",
+                  "displayName": "All Shelves",
+                  "isMultiValued": false
+                },
+                "alternate_shelves": {
+                  "value": "Manufacturer Part Number",
+                  "valueRank": 0,
+                  "name": "alternate_shelves",
+                  "type": "STRING",
+                  "displayName": "Alternate Shelves",
+                  "isMultiValued": false
+                },
+                "brand": {
+                  "value": "Michelin",
+                  "valueRank": 0,
+                  "properties": {
+                    "brand_code": "326805"
+                  },
+                  "name": "brand",
+                  "type": "STRING",
+                  "displayName": "Brand",
+                  "isMultiValued": false
+                },
+                "comp_package_qty": {
+                  "value": "1",
+                  "valueRank": 0,
+                  "name": "comp_package_qty",
+                  "type": "STRING",
+                  "displayName": "Comp Package Qty",
+                  "isMultiValued": false
+                },
+                "comp_unit_size": {
+                  "value": "1",
+                  "valueRank": 0,
+                  "name": "comp_unit_size",
+                  "type": "STRING",
+                  "displayName": "Comp Unit Size",
+                  "isMultiValued": false
+                },
+                "comp_unit_uom": {
+                  "value": "EA",
+                  "valueRank": 0,
+                  "name": "comp_unit_uom",
+                  "type": "STRING",
+                  "displayName": "Comp Unit UOM",
+                  "isMultiValued": false
+                },
+                "composite_wood_certification_code": {
+                  "value": "1",
+                  "valueRank": 0,
+                  "name": "composite_wood_certification_code",
+                  "type": "STRING",
+                  "displayName": "Composite Wood Certification Code",
+                  "isMultiValued": false
+                },
+                "contains_chemical_aerosol_or_pesticide": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "contains_chemical_aerosol_or_pesticide",
+                  "type": "STRING",
+                  "displayName": "Contains Chemical, Aerosol or Pesticide",
+                  "isMultiValued": false
+                },
+                "contains_electrical_component": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "contains_electrical_component",
+                  "type": "STRING",
+                  "displayName": "Contains Electrical Component",
+                  "isMultiValued": false
+                },
+                "does_this_item_contain_more_than_one_product": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "does_this_item_contain_more_than_one_product",
+                  "type": "STRING",
+                  "displayName": "Does This Item Contain More Than One Product",
+                  "isMultiValued": false
+                },
+                "fulfiller": {
+                  "value": "Hard good",
+                  "valueRank": 0,
+                  "name": "fulfiller",
+                  "type": "STRING",
+                  "displayName": "Fulfiller",
+                  "isMultiValued": false
+                },
+                "global_product_type": {
+                  "value": "default",
+                  "valueRank": 0,
+                  "name": "global_product_type",
+                  "type": "STRING",
+                  "displayName": "Global Product Type",
+                  "isMultiValued": false
+                },
+                "gpt_path": {
+                  "value": "[]",
+                  "valueRank": 0,
+                  "name": "gpt_path",
+                  "type": "STRING",
+                  "displayName": "GPT Path",
+                  "isMultiValued": false
+                },
+                "gtin": {
+                  "value": "00406229358791",
+                  "valueRank": 0,
+                  "name": "gtin",
+                  "type": "STRING",
+                  "displayName": "GTIN",
+                  "isMultiValued": false
+                },
+                "ironbank_category": {
+                  "value": "Brick10002924",
+                  "valueRank": 0,
+                  "name": "ironbank_category",
+                  "type": "STRING",
+                  "displayName": "IronBank Category",
+                  "isMultiValued": false
+                },
+                "is_discounting_illegal": {
+                  "value": "0",
+                  "valueRank": 0,
+                  "name": "is_discounting_illegal",
+                  "type": "STRING",
+                  "displayName": "Is Discounting Illegal",
+                  "isMultiValued": false
+                },
+                "is_electrical": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_electrical",
+                  "type": "STRING",
+                  "displayName": "Is Electrical",
+                  "isMultiValued": false
+                },
+                "is_fulfilled_through_sortable_fc_network": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_fulfilled_through_sortable_fc_network",
+                  "type": "STRING",
+                  "displayName": "Is Fulfilled through Sortable FC Network",
+                  "isMultiValued": false
+                },
+                "is_product_members_mark": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_product_members_mark",
+                  "type": "STRING",
+                  "displayName": "Is Product Members Mark",
+                  "isMultiValued": false
+                },
+                "is_temperature_sensitive": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_temperature_sensitive",
+                  "type": "STRING",
+                  "displayName": "Is Temperature-Sensitive",
+                  "isMultiValued": false
+                },
+                "is_trade_item_a_promotional_unit": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_trade_item_a_promotional_unit",
+                  "type": "STRING",
+                  "displayName": "Is Trade Item a Promotional Unit",
+                  "isMultiValued": false
+                },
+                "is_trade_item_a_service": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_trade_item_a_service",
+                  "type": "STRING",
+                  "displayName": "Is Trade Item a Service",
+                  "isMultiValued": false
+                },
+                "is_trade_item_non-physical": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_trade_item_non-physical",
+                  "type": "STRING",
+                  "displayName": "Is Trade Item Non-Physical",
+                  "isMultiValued": false
+                },
+                "is_variable_weight": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "is_variable_weight",
+                  "type": "STRING",
+                  "displayName": "Is Variable Weight",
+                  "isMultiValued": false
+                },
+                "item_description_1": {
+                  "value": "LT285/55R20E A/T2",
+                  "valueRank": 0,
+                  "name": "item_description_1",
+                  "type": "STRING",
+                  "displayName": "Item Description 1",
+                  "isMultiValued": false
+                },
+                "item_description_2": {
+                  "value": "60000",
+                  "valueRank": 0,
+                  "name": "item_description_2",
+                  "type": "STRING",
+                  "displayName": "Item Description 2",
+                  "isMultiValued": false
+                },
+                "item_id": {
+                  "value": "5018481217",
+                  "valueRank": 0,
+                  "name": "item_id",
+                  "type": "STRING",
+                  "displayName": "ITEM_ID",
+                  "isMultiValued": false
+                },
+                "main_image": {
+                  "value": "https://scene7.samsclub.com/is/image/samsclub/0040628134399_A",
+                  "valueRank": 0,
+                  "name": "main_image",
+                  "type": "STRING",
+                  "displayName": "Main Image URL",
+                  "isMultiValued": false
+                },
+                "map_options": {
+                  "value": "Show",
+                  "valueRank": 0,
+                  "name": "map_options",
+                  "type": "STRING",
+                  "displayName": "MAP Options",
+                  "isMultiValued": false
+                },
+                "meta_description": {
+                  "value": "Find tires like Michelin LTX A/T2 LT285/55R20E 119R on samsclub.com and save! The Michelin LTX A/T2 LT285/55R20E 119R can be found along with other tires from Michelin, BFGoodrich, Goodyear, and Dunlop.",
+                  "valueRank": 0,
+                  "name": "meta_description",
+                  "type": "STRING",
+                  "displayName": "Meta Description",
+                  "isMultiValued": false
+                },
+                "msrp_option": {
+                  "value": "None",
+                  "valueRank": 0,
+                  "name": "msrp_option",
+                  "type": "STRING",
+                  "displayName": "MSRP Option",
+                  "isMultiValued": false
+                },
+                "number_of_days_to_return": {
+                  "value": "99",
+                  "valueRank": 0,
+                  "name": "number_of_days_to_return",
+                  "type": "STRING",
+                  "displayName": "Number of Days to Return",
+                  "isMultiValued": false
+                },
+                "packages_of_uom": {
+                  "value": "EA",
+                  "valueRank": 0,
+                  "name": "packages_of_uom",
+                  "type": "STRING",
+                  "displayName": "Packages of UOM",
+                  "isMultiValued": false
+                },
+                "paper_wood_ind": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "paper_wood_ind",
+                  "type": "STRING",
+                  "displayName": "Paper/Wood Ind",
+                  "isMultiValued": false
+                },
+                "primary_gtin": {
+                  "value": "00406229358791",
+                  "valueRank": 0,
+                  "name": "primary_gtin",
+                  "type": "STRING",
+                  "displayName": "Primary GTIN",
+                  "isMultiValued": false
+                },
+                "primary_shelf": {
+                  "value": "UNNAV",
+                  "valueRank": 0,
+                  "properties": {
+                    "taxonomy": "site-samsclub",
+                    "taxonomy_version": "~draft"
+                  },
+                  "name": "primary_shelf",
+                  "type": "STRING",
+                  "displayName": "Primary Shelf",
+                  "isMultiValued": false
+                },
+                "primary_shelf_id": {
+                  "value": "1061",
+                  "valueRank": 0,
+                  "name": "primary_shelf_id",
+                  "type": "STRING",
+                  "displayName": "Primary Shelf ID",
+                  "isMultiValued": false
+                },
+                "product_category": {
+                  "value": "Vehicles, Parts & Accessories",
+                  "valueRank": 0,
+                  "properties": {
+                    "confidence": "0.7436778545379639",
+                    "model_version": "PtcnnModel---20241004-165449-pcs-no-misc-no-book-img-classy-release-20241016T012446Z",
+                    "precision": "0.9573726329133984",
+                    "recall": "0.949249744677508"
+                  },
+                  "name": "product_category",
+                  "type": "STRING",
+                  "displayName": "Product Category",
+                  "isMultiValued": false
+                },
+                "product_long_description": {
+                  "value": "<strong>60,000 Mile Limited Warranty</strong><br>The optimized contact patch shape, provided by MaxTouch Construction™, helps deliver extremely long tire life under the toughest conditions.<br><br><strong>35% Longer Life on Gravel</strong><br>Tough off-road endurance capability of the MICHELIN® LTX® A/T2 tire helps it last at least 35% longer on gravel than two leading class competitors.<br><br><strong>Very Comfortable Ride</strong><br>MICHELIN® Comfort Control Technology™ uses computer-optimized design and precision manufacturing to offer greatly reduced vibrations and road noise.",
+                  "valueRank": 0,
+                  "name": "product_long_description",
+                  "type": "STRING",
+                  "displayName": "Product Long Description",
+                  "isMultiValued": false
+                },
+                "product_name": {
+                  "value": "Michelin LTX A/T2 - P285/50R20E 111V",
+                  "valueRank": 0,
+                  "name": "product_name",
+                  "type": "STRING",
+                  "displayName": "Product Name",
+                  "isMultiValued": false
+                },
+                "product_pt_family": {
+                  "value": "default",
+                  "valueRank": 0,
+                  "properties": {
+                    "confidence": "0.7436778545379639",
+                    "model_version": "PtcnnModel---20241004-165449-pcs-no-misc-no-book-img-classy-release-20241016T012446Z",
+                    "precision": "0.9573726329133984",
+                    "recall": "0.949249744677508"
+                  },
+                  "name": "product_pt_family",
+                  "type": "STRING",
+                  "displayName": "Product PT Family",
+                  "isMultiValued": false
+                },
+                "product_short_description": {
+                  "value": "<li>60,000 Mile Manufacturer's Limited Warranty*<li>Covered by the Michelin Promise Plan™<li>Black Sidewall<span class=\"michelinPromisePlan\"><a href=\"http://scene7.samsclub.com/is/content/samsclub/michelin_promise_planpdf\" target=\"_blank\" style=\"position:relative;top:5px;\"><img src=\"http://scene7.samsclub.com/is/image/samsclub/icon-MichelinPromisePlan?wid=50&op_sharpen=1\"></a></span>",
+                  "valueRank": 0,
+                  "name": "product_short_description",
+                  "type": "STRING",
+                  "displayName": "Short Description",
+                  "isMultiValued": false
+                },
+                "product_type": {
+                  "value": "Tires",
+                  "valueRank": 0,
+                  "properties": {
+                    "confidence": "0.7436778545379639",
+                    "model_version": "PtcnnModel---20241004-165449-pcs-no-misc-no-book-img-classy-release-20241016T012446Z",
+                    "precision": "0.9573726329133984",
+                    "recall": "0.949249744677508"
+                  },
+                  "name": "product_type",
+                  "type": "STRING",
+                  "displayName": "Product Type",
+                  "isMultiValued": false
+                },
+                "product_url_text": {
+                  "value": "/product/Michelin-LTX-A-T2-P285-50R20E-111V/5018481217",
+                  "valueRank": 0,
+                  "name": "product_url_text",
+                  "type": "STRING",
+                  "displayName": "Product URL Text",
+                  "isMultiValued": false
+                },
+                "promo_eligible": {
+                  "value": "false",
+                  "valueRank": 0,
+                  "name": "promo_eligible",
+                  "type": "BOOLEAN",
+                  "displayName": "promo eligible",
+                  "isMultiValued": false
+                },
+                "receipt_description": {
+                  "value": "LT285/55R20",
+                  "valueRank": 0,
+                  "name": "receipt_description",
+                  "type": "STRING",
+                  "displayName": "Receipt Description",
+                  "isMultiValued": false
+                },
+                "sams_club_exclusive": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "sams_club_exclusive",
+                  "type": "STRING",
+                  "displayName": "Sams Club Exclusive",
+                  "isMultiValued": false
+                },
+                "sams_legacy_item_group_id": {
+                  "value": "sku3805061",
+                  "valueRank": 0,
+                  "name": "sams_legacy_item_group_id",
+                  "type": "STRING",
+                  "displayName": "Sams Legacy Item Group ID",
+                  "isMultiValued": false
+                },
+                "sams_legacy_product_id": {
+                  "value": "prod3380778",
+                  "valueRank": 0,
+                  "name": "sams_legacy_product_id",
+                  "type": "STRING",
+                  "displayName": "Sams Legacy Product ID",
+                  "isMultiValued": false
+                },
+                "sat_attributes": {
+                  "value": "Michelin",
+                  "valueRank": 0,
+                  "name": "sat_attributes",
+                  "type": "STRING",
+                  "displayName": "Sat Attributes",
+                  "isMultiValued": true,
+                  "values": [
+                    {
+                      "value": "Michelin",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_brand",
+                        "sat_attributes_filter_value": "Michelin"
+                      }
+                    },
+                    {
+                      "value": "Tires",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_product_type",
+                        "sat_attributes_filter_value": "Tires"
+                      }
+                    },
+                    {
+                      "value": "285",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_tire_width",
+                        "sat_attributes_filter_value": "285"
+                      }
+                    },
+                    {
+                      "value": "55",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_tire_aspect_ratio",
+                        "sat_attributes_filter_value": "55"
+                      }
+                    },
+                    {
+                      "value": "20",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_tire_diameter",
+                        "sat_attributes_filter_value": "20"
+                      }
+                    },
+                    {
+                      "value": "119R",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_tire_speed_rating",
+                        "sat_attributes_filter_value": "119R"
+                      }
+                    },
+                    {
+                      "value": "LT285/55R20/E",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_tire_size",
+                        "sat_attributes_filter_value": "LT285/55R20/E"
+                      }
+                    },
+                    {
+                      "value": "16270",
+                      "valueRank": 0,
+                      "properties": {
+                        "sat_attributes_filter_name": "pcs_model",
+                        "sat_attributes_filter_value": "16270"
+                      }
+                    }
+                  ]
+                },
+                "search_terms": {
+                  "value": "2855520",
+                  "valueRank": 0,
+                  "name": "search_terms",
+                  "type": "STRING",
+                  "displayName": "Search Terms",
+                  "isMultiValued": false
+                },
+                "segregation": {
+                  "value": "General Handling",
+                  "valueRank": 0,
+                  "name": "segregation",
+                  "type": "STRING",
+                  "displayName": "Segregation",
+                  "isMultiValued": false
+                },
+                "sell_qty_sign": {
+                  "value": "0",
+                  "valueRank": 0,
+                  "name": "sell_qty_sign",
+                  "type": "STRING",
+                  "displayName": "Sell Qty - Sign",
+                  "isMultiValued": false
+                },
+                "sell_qty_sign_uom": {
+                  "value": "EA",
+                  "valueRank": 0,
+                  "name": "sell_qty_sign_uom",
+                  "type": "STRING",
+                  "displayName": "Sell Qty - Sign UOM",
+                  "isMultiValued": false
+                },
+                "seo_display_name": {
+                  "value": "michelin-ltx-a-t2-lt285-55r20e-119r",
+                  "valueRank": 0,
+                  "name": "seo_display_name",
+                  "type": "STRING",
+                  "displayName": "SEO Display Name",
+                  "isMultiValued": false
+                },
+                "shelf_description": {
+                  "value": "60,000 Mile Limited WarrantyThe optimized contact patch shape, provided by MaxTouch Construction™, helps deliver extremely long tire life under the toughest conditions.35% Longer Life on GravelTough off-road endurance capability of the MICHELIN® LTX® A/T2 tire helps it last at least 35% longer on gr",
+                  "valueRank": 0,
+                  "name": "shelf_description",
+                  "type": "STRING",
+                  "displayName": "Shelf Description",
+                  "isMultiValued": false
+                },
+                "ship_options": {
+                  "value": "Standard",
+                  "valueRank": 0,
+                  "name": "ship_options",
+                  "type": "STRING",
+                  "displayName": "Ship Options",
+                  "isMultiValued": false
+                },
+                "shipping_cost": {
+                  "value": "2",
+                  "valueRank": 0,
+                  "name": "shipping_cost",
+                  "type": "STRING",
+                  "displayName": "Shipping Cost",
+                  "isMultiValued": false
+                },
+                "shipping_cost_type": {
+                  "value": "Fixed",
+                  "valueRank": 0,
+                  "name": "shipping_cost_type",
+                  "type": "STRING",
+                  "displayName": "Shipping Cost Type",
+                  "isMultiValued": false
+                },
+                "shipping_flag": {
+                  "value": "Paid",
+                  "valueRank": 0,
+                  "name": "shipping_flag",
+                  "type": "STRING",
+                  "displayName": "Shipping Flag",
+                  "isMultiValued": false
+                },
+                "shipping_instruction_indicator": {
+                  "value": "Normal Item",
+                  "valueRank": 0,
+                  "name": "shipping_instruction_indicator",
+                  "type": "STRING",
+                  "displayName": "Shipping Instruction Indicator",
+                  "isMultiValued": false
+                },
+                "signing_1_desc": {
+                  "value": "MICHELIN",
+                  "valueRank": 0,
+                  "name": "signing_1_desc",
+                  "type": "STRING",
+                  "displayName": "Signing 1 Desc",
+                  "isMultiValued": false
+                },
+                "signing_2_desc": {
+                  "value": "LTX A/T2",
+                  "valueRank": 0,
+                  "name": "signing_2_desc",
+                  "type": "STRING",
+                  "displayName": "Signing 2 Desc",
+                  "isMultiValued": false
+                },
+                "signing_3_desc": {
+                  "value": "LT285/55R20/E 119R",
+                  "valueRank": 0,
+                  "name": "signing_3_desc",
+                  "type": "STRING",
+                  "displayName": "Signing 3 Desc",
+                  "isMultiValued": false
+                },
+                "sold_exclusively_online": {
+                  "value": "N",
+                  "valueRank": 0,
+                  "name": "sold_exclusively_online",
+                  "type": "STRING",
+                  "displayName": "Sold Exclusively Online",
+                  "isMultiValued": false
+                },
+                "specification_table_html": {
+                  "value": "<a href=\"http://www.samsclub.com/sams/pagedetails/content.jsp?pageName=tirePurchase\"><img src=\"http://scene7.samsclub.com/is/image/samsclub/view_tire_buying_guide?wid=293&fmt=gif\" width=\"293\" height=\"171\" border=\"0\" alt=\"View the Tire Buying Guide\" /></a><br><br><table width=\"530\" cellspacing=\"1\" cellpadding=\"4\" border=\"0\" style=\"border:1px solid #F2F2F2;\"><col width=\"40%\"><col width=\"60%\">\t\t\t\t\t<td bgcolor=\"#DBF1FE\" colspan=\"2\"><font size=\"2\" >\t<b>Product Details</b>\t</td>\t\t\t<tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tTire Size:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\tLT285/55R20/E\t</td></tr><tr><td valign=\"top\">\tService Description:\t</td>\t<td valign=\"top\">\t119R\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tSidewall:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\tBlack Sidewall\t</td></tr><tr><td valign=\"top\">\tMaterial Number or MSPN:\t</td>\t<td valign=\"top\">\t16270\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tRim Width (min. to max.):\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\t8.0-10.0\t</td></tr><tr><td valign=\"top\">\tSection Width:\t</td>\t<td valign=\"top\">\t11.7\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tOverall Diameter:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\t32.4\t</td></tr><tr><td valign=\"top\">\tTread Depth (32nds):\t</td>\t<td valign=\"top\">\t17\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tRPM:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\t643\t</td></tr><tr><td valign=\"top\">\tMax Load (lbs.):\t</td>\t<td valign=\"top\">\t3305 - Single <br>3000 - Dual\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\" colspan=\"2\">\tGovernment UTQG Ratings do not apply to light truck sized tires. \t</td>\t\t\t</table>\t\t\t\t\t<br><b><font color=red>Note: Tires are not available for order in Hawaii or Alaska.</b></font>",
+                  "valueRank": 0,
+                  "name": "specification_table_html",
+                  "type": "STRING",
+                  "displayName": "Specification Table HTML",
+                  "isMultiValued": false
+                },
+                "specifications": {
+                  "value": "<a href=\"http://www.samsclub.com/sams/pagedetails/content.jsp?pageName=tirePurchase\"><img src=\"http://scene7.samsclub.com/is/image/samsclub/view_tire_buying_guide?wid=293&fmt=gif\" width=\"293\" height=\"171\" border=\"0\" alt=\"View the Tire Buying Guide\" /></a><br><br><table width=\"530\" cellspacing=\"1\" cellpadding=\"4\" border=\"0\" style=\"border:1px solid #F2F2F2;\"><col width=\"40%\"><col width=\"60%\">\t\t\t\t\t<td bgcolor=\"#DBF1FE\" colspan=\"2\"><font size=\"2\" >\t<b>Product Details</b>\t</td>\t\t\t<tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tTire Size:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\tLT285/55R20/E\t</td></tr><tr><td valign=\"top\">\tService Description:\t</td>\t<td valign=\"top\">\t119R\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tSidewall:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\tBlack Sidewall\t</td></tr><tr><td valign=\"top\">\tMaterial Number or MSPN:\t</td>\t<td valign=\"top\">\t16270\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tRim Width (min. to max.):\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\t8.0-10.0\t</td></tr><tr><td valign=\"top\">\tSection Width:\t</td>\t<td valign=\"top\">\t11.7\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tOverall Diameter:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\t32.4\t</td></tr><tr><td valign=\"top\">\tTread Depth (32nds):\t</td>\t<td valign=\"top\">\t17\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\">\tRPM:\t</td>\t<td valign=\"top\" bgcolor=\"#F2F2F2\">\t643\t</td></tr><tr><td valign=\"top\">\tMax Load (lbs.):\t</td>\t<td valign=\"top\">\t3305 - Single <br>3000 - Dual\t</td></tr><tr><td valign=\"top\" bgcolor=\"#F2F2F2\" colspan=\"2\">\tGovernment UTQG Ratings do not apply to light truck sized tires. \t</td>\t\t\t</table>\t\t\t\t\t<br><b><font color=red>Note: Tires are not available for order in Hawaii or Alaska.</b></font>",
+                  "valueRank": 0,
+                  "name": "specifications",
+                  "type": "STRING",
+                  "displayName": "Specifications",
+                  "isMultiValued": false
+                },
+                "tire_aspect_ratio": {
+                  "value": "55",
+                  "valueRank": 0,
+                  "name": "tire_aspect_ratio",
+                  "type": "STRING",
+                  "displayName": "Tire Aspect Ratio",
+                  "isMultiValued": false
+                },
+                "tire_size": {
+                  "value": "LT285/55R20/E",
+                  "valueRank": 0,
+                  "name": "tire_size",
+                  "type": "STRING",
+                  "displayName": "Tire Size",
+                  "isMultiValued": false
+                },
+                "tire_speed_rating_sams": {
+                  "value": "119R",
+                  "valueRank": 0,
+                  "name": "tire_speed_rating_sams",
+                  "type": "STRING",
+                  "displayName": "Tyre Speed Rating(SAMS)",
+                  "isMultiValued": false
+                },
+                "tiresidewallstylesams": {
+                  "value": "55",
+                  "valueRank": 0,
+                  "name": "tiresidewallstylesams",
+                  "type": "STRING",
+                  "displayName": "Tire Sidewall Style (SAMS)",
+                  "isMultiValued": false
+                },
+                "upc": {
+                  "value": "406229358791",
+                  "valueRank": 0,
+                  "name": "upc",
+                  "type": "STRING",
+                  "displayName": "UPC",
+                  "isMultiValued": false
+                },
+                "warranty": {
+                  "value": "60,000 Mile Manufacturer's Limited Warranty <br><br><a href=\"http://scene7.samsclub.com/is/content/samsclub/michelin_promise_planpdf\" target=\"-blank\">Michelin® Promise Plan™</a><br><br>*Vehicles with different front and rear tire size fitments are subject to Manufacturer’s mileage warranty terms and may differ from stated warranty. See Tire and Battery Center associate for details. <br><br>",
+                  "valueRank": 0,
+                  "properties": {
+                    "warranty_description": "60,000 Mile Manufacturer's Limited Warranty <br><br><a href=\"http://scene7.samsclub.com/is/content/samsclub/michelin_promise_planpdf\" target=\"-blank\">Michelin® Promise Plan™</a><br><br>*Vehicles with different front and rear tire size fitments are subject to Manufacturer’s mileage warranty terms and may differ from stated warranty. See Tire and Battery Center associate for details. <br><br>"
+                  },
+                  "name": "warranty",
+                  "type": "STRING",
+                  "displayName": "Warranty",
+                  "isMultiValued": false
+                }
+              },
+              "productMarketAttributes": {
+                "all_shelves": {
+                  "value": "Manufacturer Part Number",
+                  "valueRank": 0,
+                  "name": "all_shelves",
+                  "type": "STRING",
+                  "displayName": "All Shelves",
+                  "isMultiValued": false
+                },
+                "alternate_shelves": {
+                  "value": "Manufacturer Part Number",
+                  "valueRank": 0,
+                  "name": "alternate_shelves",
+                  "type": "STRING",
+                  "displayName": "Alternate Shelves",
+                  "isMultiValued": false
+                },
+                "primary_shelf": {
+                  "value": "UNNAV",
+                  "valueRank": 0,
+                  "properties": {
+                    "taxonomy": "site-samsclub",
+                    "taxonomy_version": "~draft"
+                  },
+                  "name": "primary_shelf",
+                  "type": "STRING",
+                  "displayName": "Primary Shelf",
+                  "isMultiValued": false
+                },
+                "primary_shelf_id": {
+                  "value": "1061",
+                  "valueRank": 0,
+                  "name": "primary_shelf_id",
+                  "type": "STRING",
+                  "displayName": "Primary Shelf ID",
+                  "isMultiValued": false
+                },
+                "product_url_text": {
+                  "value": "/product/Michelin-LTX-A-T2-P285-50R20E-111V/5018481217",
+                  "valueRank": 0,
+                  "name": "product_url_text",
+                  "type": "STRING",
+                  "displayName": "Product URL Text",
+                  "isMultiValued": false
+                },
+                "receipt_description": {
+                  "value": "LT285/55R20",
+                  "valueRank": 0,
+                  "name": "receipt_description",
+                  "type": "STRING",
+                  "displayName": "Receipt Description",
+                  "isMultiValued": false
+                },
+                "segregation": {
+                  "value": "General Handling",
+                  "valueRank": 0,
+                  "name": "segregation",
+                  "type": "STRING",
+                  "displayName": "Segregation",
+                  "isMultiValued": false
+                },
+                "shelf_description": {
+                  "value": "60,000 Mile Limited WarrantyThe optimized contact patch shape, provided by MaxTouch Construction™, helps deliver extremely long tire life under the toughest conditions.35% Longer Life on GravelTough off-road endurance capability of the MICHELIN® LTX® A/T2 tire helps it last at least 35% longer on gr",
+                  "valueRank": 0,
+                  "name": "shelf_description",
+                  "type": "STRING",
+                  "displayName": "Shelf Description",
+                  "isMultiValued": false
+                },
+                "walmart_item_number": {
+                  "valueRank": 0,
+                  "name": "walmart_item_number",
+                  "displayName": "walmart_item_number",
+                  "isMultiValued": true,
+                  "values": [
+                    {
+                      "value": "293587",
+                      "valueSource": "6612",
+                      "valueRank": 0
+                    },
+                    {
+                      "value": "293587",
+                      "valueSource": "6279",
+                      "valueRank": 0
+                    }
+                  ]
+                }
+              },
+              "productClassType": "REGULAR",
+              "productLifecycleStatus": "ACTIVE",
+              "complianceAttributes": {
+                "en_US": {
+                  "attributes": [
+                    {
+                      "value": "N",
+                      "valueRank": 0,
+                      "name": "is_temperature_sensitive",
+                      "type": "STRING",
+                      "displayName": "Is Temperature-Sensitive",
+                      "isMultiValued": false
+                    },
+                    {
+                      "value": "1",
+                      "valueRank": 0,
+                      "name": "composite_wood_certification_code",
+                      "type": "STRING",
+                      "displayName": "Composite Wood Certification Code",
+                      "isMultiValued": false
+                    }
+                  ]
+                }
+              }
+            },
+            "productPublishStatus": "PUBLISHED",
+            "productClassType": "REGULAR",
+            "entityAssetGroups": [
+              {
+                "entityErrors": [],
+                "entityId": "5JYMZ5MNJ0XV",
+                "entityType": "PRODUCT",
+                "assetGroupPublishStatus": "CDN",
+                "entityAssetGroupVersion": 1732655227437,
+                "entityAssetList": [
+                  {
+                    "entityErrors": [],
+                    "appModifiedDate": 1728571472000,
+                    "appCreatedDate": 1728571472000,
+                    "assetId": "5ECE2146E98D49EDB58449C489500C10",
+                    "assetUrl": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg",
+                    "assetPublishStatus": "PUBLISHED",
+                    "assetDimensionMap": {
+                      "IMAGE_SIZE_450": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                      "IMAGE_SIZE_100": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                      "IMAGE_SIZE_180": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                      "IMAGE_SIZE_60": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=60&odnWidth=60&odnBg=FFFFFF"
+                    },
+                    "assetType": "PRIMARY",
+                    "assetRank": 1,
+                    "width": 800,
+                    "height": 800,
+                    "isNewCreate": false,
+                    "assetSizeMap": {
+                      "50X50Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=50&odnWidth=50",
+                      "100X100Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=100&odnWidth=100",
+                      "55X55Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=55&odnWidth=55",
+                      "420X420Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=420&odnWidth=420",
+                      "80X80Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=80&odnWidth=80",
+                      "2000X2000Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=2000&odnWidth=2000",
+                      "125X125Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=125&odnWidth=125",
+                      "215X215Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=215&odnWidth=215",
+                      "60X60Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=60&odnWidth=60",
+                      "300X300Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=300&odnWidth=300",
+                      "75X75Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=75&odnWidth=75",
+                      "150X150Xfalse": "https://i5-qa.walmartimages.com/asr/844584c6-64f4-44da-a01a-50fb88f912ef.db5932ec4668352a959b60317000b614.jpeg?odnHeight=150&odnWidth=150"
+                    },
+                    "providerName": "SuperResolutionRDN",
+                    "mimeType": "image/jpeg"
+                  }
+                ]
+              }
+            ],
+            "itemWrapper": {
+              "primaryStoreId": "6612",
+              "primaryOffer": {
+                "entityErrors": [],
+                "offerId": {
+                  "offerId": "A48F795915933D34A2CAAF2F99FAC4C9",
+                  "upc": "406229358791",
+                  "wupc": "0040622935879",
+                  "gtin": "00406229358791",
+                  "USItemId": 5018481217
+                },
+                "productId": {
+                  "productId": "5JYMZ5MNJ0XV",
+                  "USItemId": 5018481217,
+                  "upc": "406229358791",
+                  "wupc": "0040622935879",
+                  "gtin": "00406229358791"
+                },
+                "tenantId": 2,
+                "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+                "offerIdentifiers": {
+                  "GTIN": "00406229358791",
+                  "UPC": "406229358791",
+                  "WUPC": "0040622935879"
+                },
+                "originOfComponents": [],
+                "originOfAssembly": [],
+                "offerPublishStatus": "PUBLISHED",
+                "offerLifecycleStatus": "ACTIVE",
+                "globalTaxCode": "2039074",
+                "fulfillment": {},
+                "offerAttributes": {
+                  "data_source": {
+                    "value": "SamsMigrationForwardSync",
+                    "valueRank": 0,
+                    "name": "data_source",
+                    "type": "STRING",
+                    "isMultiValued": false
+                  },
+                  "firstPublishedDate": {
+                    "value": "2024-11-05T18:01:29.290",
+                    "valueRank": 0,
+                    "name": "firstPublishedDate",
+                    "type": "STRING",
+                    "displayName": "firstPublishedDate",
+                    "isMultiValued": false
+                  },
+                  "offerPublishStatusMeta": {
+                    "value": "{}",
+                    "valueRank": 0,
+                    "name": "offerPublishStatusMeta",
+                    "type": "STRING",
+                    "displayName": "offerPublishStatusMeta",
+                    "isMultiValued": false
+                  }
+                },
+                "modifiedDtmSource": 1730829689290,
+                "marketOfferCrossReferences": [
+                  {
+                    "identifierName": "ITEM_ID",
+                    "US_WMT_DOTCOM_SELLER_ID": "10810",
+                    "subsystemName": "QARTH",
+                    "US_WMT_DOTCOM_ITEM_ID": "5018481217"
+                  }
+                ],
+                "marketAttributes": {
+                  "wm_dept_num": {
+                    "value": "62",
+                    "valueRank": 0,
+                    "name": "wm_dept_num",
+                    "type": "STRING",
+                    "displayName": "62",
+                    "isMultiValued": false
+                  }
+                },
+                "offerRank": 0,
+                "offerLogistics": {
+                  "productShipPackageMeasuresList": [
+                    {
+                      "productDimensions": {
+                        "productLength": {
+                          "unitOfMeasure": "IN",
+                          "measurementValue": 32.36
+                        },
+                        "productHeight": {
+                          "unitOfMeasure": "IN",
+                          "measurementValue": 11.69
+                        }
+                      },
+                      "productWeight": {
+                        "unitOfMeasure": "LB",
+                        "measurementValue": 53.77000045776367
+                      },
+                      "packageNumber": 0
+                    }
+                  ],
+                  "shipAsIs": false,
+                  "hazardMaterial": false,
+                  "perishable": false,
+                  "numberOfBoxes": 1
+                },
+                "streetDateDisplayable": true,
+                "modifiedDtm": 1730829689290,
+                "offerPurchaseType": {
+                  "purchaseOption": "BUY",
+                  "conditionType": "NEW"
+                },
+                "overridableOfferType": {
+                  "isOverridden": false,
+                  "computedValue": "ONLINE_AND_STORE"
+                },
+                "conditionTypeCode": 1,
+                "martId": "2",
+                "offerType": "ONLINE_AND_STORE"
+              },
+              "offerLevelAttributes": {
+                "fulfillmentSummary": [
+                  {
+                    "fulfillment": "PICKUP",
+                    "storeId": "6612",
+                    "fulfillmentMethods": [
+                      "UNSCHEDULED"
+                    ]
+                  }
+                ]
+              },
+              "canAddToCart": true
+            },
+            "transactableOfferCount": 0
+          }
+        ]
+      }
+    }
+  }
+]
