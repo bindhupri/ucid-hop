@@ -1,0 +1,99 @@
+{
+  "zone": "contentZone2",
+  "moduleType": "ItemCarousel",
+  "moduleId": "7adfdd66-cc03-4b38-a988-efd631953099",
+  "configs": {
+    "p13nStrategy": "cart_page.rr0"
+  },
+  "moduleResponse": [
+    {
+      "products": [
+        {
+          "id": "5018460718",
+          "usItemId": "5018460718",
+          "offerId": "8DFE52456FGH67IJ899H",
+          "sellerId": "SELLER123",
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://example.com/images/product1.jpg",
+            "assetId": "ASSET123"
+          },
+          "badges": [
+            "ROLLBACK"
+          ],
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/Sample-Product-Name/5018460718",
+          "name": "Sample Product Name 1",
+          "p13nData": {
+            "modelItemId": "5018460718"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "fulfillmentSummary": [
+            {
+              "fulfillment": "SHIPPING",
+              "fulfillmentMethods": ["UNSCHEDULED"]
+            }
+          ]
+        },
+        {
+          "id": "5018460713",
+          "usItemId": "5018460713",
+          "offerId": "5YUHJ4567GHFGH45FGH",
+          "sellerId": "SELLER123",
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://example.com/images/product2.jpg",
+            "assetId": "ASSET124"
+          },
+          "badges": [
+            "REDUCED_PRICE"
+          ],
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/Sample-Product-Name/5018460713",
+          "name": "Sample Product Name 2",
+          "p13nData": {
+            "modelItemId": "5018460713"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "fulfillmentSummary": [
+            {
+              "fulfillment": "PICKUP",
+              "fulfillmentMethods": ["UNSCHEDULED"]
+            }
+          ]
+        },
+        {
+          "id": "120879",
+          "usItemId": "120879",
+          "offerId": "UITY56789HGFFG87FGH",
+          "sellerId": "SELLER123",
+          "availabilityStatus": "IN_STOCK",
+          "imageInfo": {
+            "thumbnailUrl": "https://example.com/images/product3.jpg",
+            "assetId": "ASSET125"
+          },
+          "badges": [
+            "REDUCED_PRICE"
+          ],
+          "classType": "REGULAR",
+          "canonicalUrl": "/product/Sample-Product-Name/120879",
+          "name": "Sample Product Name 3",
+          "p13nData": {
+            "modelItemId": "120879"
+          },
+          "showAtc": true,
+          "showSubscribe": false,
+          "fulfillmentSummary": [
+            {
+              "fulfillment": "PICKUP",
+              "fulfillmentMethods": ["UNSCHEDULED"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "athenaOverrides": "true"
+}
