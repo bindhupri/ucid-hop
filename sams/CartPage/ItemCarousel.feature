@@ -6,7 +6,7 @@ Feature: Testing Sams CartPage content POST API Service
   Background:
     * def headers = read('../../../resources/features/headers/feature_headers.json')
     * configure headers = headers
-    * def apiUrl = '/p13n/unified/CartPage/content'
+    * def apiUrl = '/p13n/unified/PostCartLoadPage/content'
     * def requestBody = read('../../../resources/features/request/CartPage/ItemCarousel_request.json')
 
   @positive
