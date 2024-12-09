@@ -1,0 +1,59 @@
+{
+  "errorDetails": [],
+  "features": null,
+  "reqId": "93e18027-4d6-16cb067fa23298",
+  "pageOffset": 0,
+  "modules": [
+    {
+      "zone": "contentZone2",
+      "moduleType": "ItemCarousel",
+      "moduleId": "7adfdd66-cc03-4b38-a988-efd631953099",
+      "configs": {
+        "p13nStrategy": "cart_page.rr0"
+      },
+      "moduleResponse": [
+        {
+          "products": [
+            {
+              "id": "6EX0O7YPNF8I",
+              "usItemId": "71934603820",
+              "offerId": "EABA09F3E9313D518647A8F6C1B7919A",
+              "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+              "priceInfo": {
+                "currentPrice": {
+                  "price": 29.420000076293945,
+                  "priceString": "$29.42"
+                },
+                "wasPrice": {
+                  "price": 29.420000076293945,
+                  "priceString": "$29.42"
+                },
+                "savings": {
+                  "amount": 0,
+                  "currencyUnit": "USD"
+                },
+                "comparisonPrice": {
+                  "price": 29.420000076293945,
+                  "currencyUnit": "USD"
+                }
+              },
+              "availabilityStatus": "IN_STOCK",
+              "availableQuantity": 996299,
+              "classType": "REGULAR",
+              "p13nData": {
+                "modelItemId": "71934603820"
+              },
+              "showAtc": true,
+              "showSubscribe": false,
+              "showOptions": false,
+              "productClassType": "REGULAR"
+            }
+          ]
+        }
+      ],
+      "subType": null,
+      "athenaOverrides": "true"
+    }
+  ],
+  "styles": []
+}
