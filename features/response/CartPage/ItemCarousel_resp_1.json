@@ -1,0 +1,64 @@
+{
+  "responseId": "93e18027-4d6-16cb067fa23298",
+  "status": "SUCCESS",
+  "modules": [
+    {
+      "zone": "contentZone2",
+      "moduleType": "ItemCarousel",
+      "moduleId": "7adfdd66-cc03-4b38-a988-efd631953099",
+      "content": {
+        "carouselItems": [
+          {
+            "id": "5018460718",
+            "name": "Item 5018460718",
+            "badges": [
+              "ROLLBACK"
+            ],
+            "fulfillmentType": "SHIPPING",
+            "availableQty": 17,
+            "imageUrl": "https://example.com/images/5018460718.jpg",
+            "price": 9.99,
+            "fulfillmentGroup": "FCGroup",
+            "shipNodeId": "1702420564"
+          },
+          {
+            "id": "5018460713",
+            "name": "Item 5018460713",
+            "badges": [
+              "REDUCED_PRICE"
+            ],
+            "fulfillmentType": "PICKUP",
+            "availableQty": 5,
+            "imageUrl": "https://example.com/images/5018460713.jpg",
+            "price": 7.49,
+            "fulfillmentGroup": "SCGroup"
+          },
+          {
+            "id": "120879",
+            "name": "Item 120879",
+            "badges": [
+              "REDUCED_PRICE"
+            ],
+            "fulfillmentType": "PICKUP",
+            "availableQty": 1,
+            "imageUrl": "https://example.com/images/120879.jpg",
+            "price": 5.99,
+            "fulfillmentGroup": "SCGroup"
+          }
+        ]
+      }
+    }
+  ],
+  "cartSummary": {
+    "totalItems": 3,
+    "pickupItems": 2,
+    "shippingItems": 1,
+    "totalPrice": 23.47
+  },
+  "userContext": {
+    "preferredStoreId": "145362",
+    "intent": "PICKUP",
+    "zipCode": "85349",
+    "deviceType": "desktop"
+  }
+}
