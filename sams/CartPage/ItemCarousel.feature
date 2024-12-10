@@ -16,12 +16,16 @@ Feature: Testing Sams CartPage content POST API Service
     When method POST
     * print response
     Then status 200
-    And match response contains { errorDetails: '#array', features: null, reqId: '#string', inflateContent: '#boolean', modules: '#array', styles: '#array' }
+    And match response contains { errorDetails: '#array', features: null, reqId: '#string', pageOffset:"#string", modules: '#array', styles: '#array' }
     And match response.modules[0] contains { zone: '#string', moduleType: '#string', moduleId: '#string', configs: '#ignore', moduleResponse: '#array', subType: null, athenaOverrides: '#string' }
     And match response.modules[0].moduleResponse contains { products: '#ignore' }
-    And match response.modules[0].moduleResponse[0].products[0] contains { id: '#string', usItemId: '#string', offerId: '#string', availabilityStatus: '#string', imageInfo: '#ignore', badges: '#array', classType: '#string', canonicalUrl: '#string', name: '#string', showAtc: '#boolean', showSubscribe: '#boolean' }
+    And match response.modules[0].moduleResponse[0].products[0] contains { id: '#string', usItemId: '#string', offerId: '#string', sellerId: "#string",priceInfo: "#ignore", availabilityStatus: "#string",availableQuantity:"#number",classType:"#string",p13nData:"#ignore",showAtc:"#boolean",showSubscribe:"#boolean",showOptions:"#boolean",productClassType:"#string"}
     And match response.modules[0].moduleResponse[0].products[0].p13nData contains { modelItemId: '#string' }
-    And match response.modules[0].moduleResponse[0].products[0].fulfillmentSummary[0] contains { fulfillment: '#string', storeId: '#string', fulfillmentMethods: '#array' }
+    And match response.modules[0].moduleResponse[0].products[0].priceInfo[0] contains {currentPrice: "#object", wasPrice:"#object",savings:"#object",comparisonPrice:"#object"}
+    And match response.modules[0].moduleResponse[0].products[0].princeInfo[0].currentPrice contains {price:"#number", priceString:"#string"}
+    And match response.modules[0].moduleResponse[0].products[0].princeInfo[0].wasPrice contains {price:"#number", priceString:"#string"}
+    And match response.modules[0].moduleResponse[0].products[0].princeInfo[0].savings contains {amount:"#number", currenyUnit:"#string"}
+    And match response.modules[0].moduleResponse[0].products[0].princeInfo[0].comparisonPrice contains {price:"#number", currencyUnit:"#string"}
 
   @negative
   Scenario: HTTP 400 should be returned when reqId is missing in the request
@@ -43,19 +47,9 @@ Feature: Testing Sams CartPage content POST API Service
     Then status 400
     And match response.errorDetails[0].message == 'The reqId is invalid'
 
-  @negative
-  Scenario: No module response should be returned when pageId is missing in the request
-    * requestBody.pageId = null
-    Given url baseUrl + apiUrl
-    And request requestBody
-    When method POST
-    * print response
-    Then status 200
-    And match response.modules == []
-
-  @negative
-  Scenario: No module response should be returned when userReqInfo is missing in the request
-    * requestBody.userReqInfo = null
+  @positive
+  Scenario: module response should be returned when modules is present in the request
+    * requestBody.modules != null
     Given url baseUrl + apiUrl
     And request requestBody
     When method POST
@@ -64,18 +58,38 @@ Feature: Testing Sams CartPage content POST API Service
     And match response.modules == []
 
   @positive
-  Scenario: Sams Cartpage content should be returned for Rich Relevance modules even if vtc in userReqInfo is missing
-    * requestBody.userReqInfo.vtc = null
+  Scenario: module response should be returned when p13nStrategy is present in the request
+    * requestBody.modules.configs.p13nStrategy != null
     Given url baseUrl + apiUrl
     And request requestBody
     When method POST
     * print response
     Then status 200
-    And match response.modules[0].moduleResponse != null
+    And match response.modules == []
+
+  @positive
+  Scenario: Sams Cartpage content should be returned for Rich Relevance modules even if product in moduleResponse is present
+    * requestBody.modules.moduleResposnse.product != null
+    Given url baseUrl + apiUrl
+    And request requestBody
+    When method POST
+    * print response
+    Then status 200
+    And match response.modules[0].moduleResponse.product != null
 
   @negative
   Scenario: No module response should be returned when modules is missing in the request
-    * requestBody.modules = null
+    * requestBody.modules.moduleId = null
+    Given url baseUrl + apiUrl
+    And request requestBody
+    When method POST
+    * print response
+    Then status 400
+    And match response.errorDetails[0].message == 'The list of Athena modules in the request is empty'
+
+  @negative
+  Scenario: No module response should be returned when modulesId is mismatching in the request
+    * requestBody.modules.moduleId = '8wsa'
     Given url baseUrl + apiUrl
     And request requestBody
     When method POST
