@@ -1,0 +1,16 @@
+@positive
+  Scenario: Sams CartPage content should be returned for Rich Relevance modules
+    Given url baseUrl + apiUrl
+    And request requestBody
+    When method POST
+    * print response
+    Then status 200
+    And match response contains { errorDetails: '#array', features: null, reqId: '#string', pageOffset: '#number', modules: '#array', styles: '#array' }
+    #And match response.modules[0] contains { zone: '#string', moduleType: '#string', moduleId: '#string', configs: '#ignore', moduleResponse: '#array', subType: null, athenaOverrides: '#string' }
+    And match response.modules[0].moduleResponse[0].products[0] contains { id: '#string', usItemId: '#string', offerId: '#string', sellerId: '#string', priceInfo: '#object', availabilityStatus: '#string', availableQuantity: '#number', classType: '#string', p13nData: '#object', showAtc: '#boolean', showSubscribe: '#boolean', showOptions: '#boolean', productClassType: '#string' }
+    And match response.modules[0].moduleResponse[0].products[0].p13nData contains { modelItemId: '#string' }
+    And match response.modules[0].moduleResponse[0].products[0].priceInfo contains { currentPrice: '#object', wasPrice: '#object', savings: '#object', comparisonPrice: '#object' }
+    And match response.modules[0].moduleResponse[0].products[0].priceInfo.currentPrice contains { price: '#number', priceString: '#string' }
+    And match response.modules[0].moduleResponse[0].products[0].priceInfo.wasPrice contains { price: '#number', priceString: '#string' }
+    And match response.modules[0].moduleResponse[0].products[0].priceInfo.savings contains { amount: '#number', currencyUnit: '#string' }
+    And match response.modules[0].moduleResponse[0].products[0].priceInfo.comparisonPrice contains { price: '#number', currencyUnit: '#string' }
