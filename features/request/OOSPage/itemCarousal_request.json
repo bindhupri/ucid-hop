@@ -1,0 +1,81 @@
+{
+  "reqId": "2oyMT8or-tjXrHwY4k7Ymh0ECv9c2AJpJVy0",
+  "productClassType": "VARIANT",
+  "userReqInfo": {
+    "refererContext": {
+      "query": "",
+      "pageId": "prod21364166"
+    },
+    "storeIds": ["6612"],
+    "fulfillmentStoreIds": [null],
+    "storeFrontIds": [
+      {
+        "storeId": "6612",
+        "anchorStore": true,
+        "pickupStore": true,
+        "deliveryStore": true
+      }
+    ],
+    "cid": "b591c23deff4475586ed985e937fb679",
+    "acid": null,
+    "wplusMembershipContext": {
+      "isActiveMember": null,
+      "isPaidMember": null,
+      "state": null,
+      "isBundledSignup": null,
+      "plusUpTag": null,
+      "isPlanUpgrade": null,
+      "membershipStatus": null,
+      "phoneRecycleFailureTS": null
+    },
+    "vid": null
+    
+  },
+  "userClientInfo": {
+    "deviceType": "desktop",
+    "ipAddress": "IP=0:0:0:0:0:0:0:1-0:0:0:0:0:0:0:1",
+    "callType": "CLIENT",
+    "isZipLocated": true,
+    "zipCode": "95122",
+    "stateOrProvinceCode": "CA",
+    "inCatchment": true,
+    "intentStrength": "IMPLICIT",
+    "countryCode": "USA",
+    "countryName": "",
+    "addressLineTwo": "",
+    "addressLineThree": "",
+    "storeName": "MILPITAS Supercenter",
+    "fulfillmentIntent": "PICKUP",
+    "subIntent": null
+  },
+  "offerId": null,
+  "sellerId": null,
+  "modules": [
+    {
+      "zone": "substitutionsZone",
+      "moduleType": "ItemCarousel",
+      "moduleId": "d3ab8987-9041-44eb-b95f-8003749ccd6b",
+      "configs": {
+        "headingText": "Similar Items",
+        "viewAllLink": {
+          "linkText": "similar items",
+          "title": "similar items title text",
+          "clickThrough": {
+            "type": "url",
+            "value": "https://www.walmart.com/",
+            "rawValue": "https://www.walmart.com/"
+          }
+        },
+        "p13nStrategy": "generic_page.substitutions_rye",
+        "itemsSelection": "none",
+        "items": null,
+        "manualShelfId": null,
+        "minItems": "0"
+      }
+    }
+  ],
+  "inflateContent": true,
+  "pageOffset": 1,
+  "pageId": "prod21364166",
+  "availabilityStatus": null
+}
