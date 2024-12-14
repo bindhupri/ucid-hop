@@ -1,0 +1,112 @@
+{
+    "errorDetails": [],
+    "features": null,
+    "reqId": "2oyMT8or-tjXrHwY4k7Ymh0ECv9c2AJpJVy0",
+    "pageOffset": 1,
+    "pageId": "5018481154",
+    "inflateContent": true,
+    "modules": [
+        {
+            "zone": "substitutionsZone",
+            "moduleType": "ItemCarousel",
+            "moduleId": "d3ab8987-9041-44eb-b95f-8003749ccd6b",
+            "configs": {
+                "headingText": "Similar Items",
+                "viewAllLink": {
+                    "linkText": "similar items",
+                    "title": "similar items title text",
+                    "clickThrough": {
+                        "type": "url",
+                        "value": "https://www.walmart.com/",
+                        "rawValue": "https://www.walmart.com/"
+                    }
+                },
+                "p13nStrategy": "generic_page.substitutions_rye",
+                "itemsSelection": "none",
+                "items": null,
+                "manualShelfId": null,
+                "minItems": "0"
+            },
+            "moduleResponse": [
+                {
+                    "products": [
+                        {
+                            "id": "4G2W19WBJGJ8",
+                            "usItemId": "5018644401",
+                            "offerId": "8C251371B5923FC39F2059B849DEE4E5",
+                            "sellerId": "FEBD61A8B53543578C96FBA3D54195F3",
+                            "priceInfo": {
+                                "priceDisplayCodes": {
+                                    "rollback": false,
+                                    "hidePriceForSOI": false,
+                                    "reducedPrice": false,
+                                    "eligibleForAssociateDiscount": false,
+                                    "clearance": false,
+                                    "strikethrough": false,
+                                    "unitPriceDisplayCondition": "0.01/ea"
+                                },
+                                "currentPrice": {
+                                    "price": 2.0,
+                                    "priceString": "$2.00"
+                                },
+                                "wasPrice": {
+                                    "price": 2.0,
+                                    "priceString": "$2.00"
+                                },
+                                "unitPrice": {
+                                    "price": 0.01
+                                },
+                                "comparisonPrice": {
+                                    "price": 2.0,
+                                    "priceType": "BASE",
+                                    "currencyUnit": "USD"
+                                }
+                            },
+                            "fulfillmentBadge": "STANDARD",
+                            "shippingOption": {
+                                "availabilityStatus": "AVAILABLE"
+                            },
+                            "fulfillmentType": "FC",
+                            "availabilityStatus": "IN_STOCK",
+                            "availableQuantity": 992533.0,
+                            "classType": "REGULAR",
+                            "p13nData": {
+                                "modelItemId": "5018644401"
+                            },
+                            "showAtc": true,
+                            "showSubscribe": false,
+                            "showOptions": false,
+                            "productClassType": "REGULAR",
+                            "fulfillmentSummary": [
+                                {
+                                    "fulfillment": "DELIVERY",
+                                    "storeId": "6612",
+                                    "fulfillmentMethods": [
+                                        "UNSCHEDULED"
+                                    ]
+                                },
+                                {
+                                    "fulfillment": "PICKUP",
+                                    "storeId": "6612",
+                                    "fulfillmentMethods": [
+                                        "UNSCHEDULED"
+                                    ]
+                                },
+                                {
+                                    "fulfillment": "DELIVERY",
+                                    "storeId": "6279",
+                                    "fulfillmentMethods": [
+                                        "UNSCHEDULED"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "subType": null,
+            "athenaOverrides": "true"
+        }
+    ],
+    "styles": []
+}
